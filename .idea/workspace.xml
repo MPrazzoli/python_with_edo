@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[STOCK-CLASS][DEPENDENCIES-REMOVE]&#10;removing of:&#10;import yfinance as yf&#10;from datetime import date, timedelta">
-      <change afterPath="$PROJECT_DIR$/analysis/network_prova.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/All2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/Dow30.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/dbFianle.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/stocksInvesting(onlyUSstocks).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prova_con_edo.py" beforeDir="false" afterPath="$PROJECT_DIR$/prova.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/data/All.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/All.xlsx" afterDir="false" />
-    </list>
+    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[CORRELATION-PICKLE]" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -454,7 +445,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610634552847</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="[OTHER]">
+      <created>1610634630034</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1610634630034</updated>
+    </task>
+    <task id="LOCAL-00029" summary="[PICKLE-FILES]">
+      <created>1610634826287</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1610634826287</updated>
+    </task>
+    <task id="LOCAL-00030" summary="[CORRELATION-PICKLE]">
+      <created>1610634883978</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1610634883978</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -487,13 +499,15 @@
     <MESSAGE value="[PERIOD-APP][NEW-DIRECTORY]" />
     <MESSAGE value="[STOCK-CLASS][DATAFRAME]" />
     <MESSAGE value="[FETCH-TICKERS-FROM-DEGIRO]" />
-    <MESSAGE value="[OTHER]" />
     <MESSAGE value="[NETWORK-MONITOR]" />
     <MESSAGE value="[STOCK-CLASS][DATAFRAME]&#10;delete import of a module which is not use anymore" />
     <MESSAGE value="[PIPENV]&#10;installation of xlrd to read xlsx files" />
     <MESSAGE value="[PIPENV][DEPENDENCIES]&#10;installation of openpyxl to read xlsx files" />
     <MESSAGE value="[STOCK-CLASS][DEPENDENCIES-REMOVE]&#10;removing of:&#10;import yfinance as yf&#10;from datetime import date, timedelta" />
-    <option name="LAST_COMMIT_MESSAGE" value="[STOCK-CLASS][DEPENDENCIES-REMOVE]&#10;removing of:&#10;import yfinance as yf&#10;from datetime import date, timedelta" />
+    <MESSAGE value="[OTHER]" />
+    <MESSAGE value="[PICKLE-FILES]" />
+    <MESSAGE value="[CORRELATION-PICKLE]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[CORRELATION-PICKLE]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1610555808047">
@@ -540,10 +554,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="584" y="16" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610634236487" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610634273741">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610634829126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610634273741" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610634829126" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
