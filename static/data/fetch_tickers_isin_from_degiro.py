@@ -28,5 +28,6 @@ project_root = os.path.dirname(os.path.dirname(__file__))
 data_tuples = list(zip(ticker_list,isin_list))
 df = pd.DataFrame(data_tuples, columns=['tickers','isin'])
 df['tickers'] = df['tickers'].str.replace('^','-')
-df.to_excel(r'new3.xlsx', sheet_name='American', index = False)
+df['tickers'] = df['tickers'].str.replace('-PR','-P')
+df.to_excel(r'new.xlsx', sheet_name='American', index = False)
 
