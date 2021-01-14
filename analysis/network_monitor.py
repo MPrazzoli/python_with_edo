@@ -5,10 +5,10 @@ from datetime import date, timedelta
 import time
 
 # Project's imports
-from moduls.stock_dataframe_class import StockListClass
+from api_moduls.stock_dataframe_class import StockListClass
 from pickle_obj.read_pickle_df import read_available_ticker_from_pickle, read_not_found_from_pickle, \
     read_data_for_analysis_linearInterp_for_nan
-from analysis_functions.correlation import cross_correlation_function
+# from analysis_functions.correlation import cross_correlation_function
 
 
 def network_monitor_function():

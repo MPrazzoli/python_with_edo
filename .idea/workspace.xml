@@ -19,25 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[PERIOD-APP]">
-      <change afterPath="$PROJECT_DIR$/analysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/network_monitor.py" afterDir="false" />
+    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[NETWORK-MONITOR]">
       <change afterPath="$PROJECT_DIR$/analysis/network_prova.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_moduls/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_moduls/stock_dataframe_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/period_app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/data/All2.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/data/Dow30.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/data/dbFianle.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/data/stocksInvesting(onlyUSstocks).xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/~$All.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/~$All2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/~$All3.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/american_stock_dataframes/A.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/A.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/read_pickle_df.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/read_pickle_df.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prova_con_edo.py" beforeDir="false" afterPath="$PROJECT_DIR$/prova.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -359,7 +347,56 @@
       <option name="project" value="LOCAL" />
       <updated>1610632937293</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[READ-PICKLE][NEW-DIRECTORY]">
+      <created>1610633053654</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1610633053654</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[DAILY-APP][NEW-DIRECTORY]">
+      <created>1610633112146</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610633112146</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[PERIOD-APP][NEW-DIRECTORY]">
+      <created>1610633166130</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610633166130</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[STOCK-CLASS][DATAFRAME]">
+      <created>1610633232133</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1610633232133</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[FETCH-TICKERS-FROM-DEGIRO]">
+      <created>1610633266306</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1610633266306</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[OTHER]">
+      <created>1610633318209</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610633318209</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[NETWORK-MONITOR]">
+      <created>1610633338204</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1610633338204</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,7 +416,6 @@
     <MESSAGE value="print" />
     <MESSAGE value="ambiente" />
     <MESSAGE value="[ACADEMY] (Network Theory, Momentum and Quantitative Equity Portfolio Management)" />
-    <MESSAGE value="[OTHER]" />
     <MESSAGE value="[Pipfile]" />
     <MESSAGE value="[RENAME]" />
     <MESSAGE value="[WRITE-PICKLE]" />
@@ -388,7 +424,14 @@
     <MESSAGE value="[API-FUNCTION]" />
     <MESSAGE value="[FILE-XLSX-TICKERS]" />
     <MESSAGE value="[PERIOD-APP]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PERIOD-APP]" />
+    <MESSAGE value="[READ-PICKLE][NEW-DIRECTORY]" />
+    <MESSAGE value="[DAILY-APP][NEW-DIRECTORY]" />
+    <MESSAGE value="[PERIOD-APP][NEW-DIRECTORY]" />
+    <MESSAGE value="[STOCK-CLASS][DATAFRAME]" />
+    <MESSAGE value="[FETCH-TICKERS-FROM-DEGIRO]" />
+    <MESSAGE value="[OTHER]" />
+    <MESSAGE value="[NETWORK-MONITOR]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[NETWORK-MONITOR]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1610555808047">
@@ -435,10 +478,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-51" y="156" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610631991587" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610632947853">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610633343403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610632947853" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610633343403" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -447,6 +490,11 @@
           <url>file://$PROJECT_DIR$/pickle_obj/prova_pickle.py</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/applications/daily_app.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
