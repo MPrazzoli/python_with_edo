@@ -19,7 +19,43 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="ambiente" />
+    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="ambiente">
+      <change afterPath="$PROJECT_DIR$/ACADEMY/Chan-1996-Momentum-strategies.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ACADEMY/Jegadeesh-2001-Profitability-of-momentum-strategie.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ACADEMY/Lee-2000-Price-momentum-and-trading-volume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ACADEMY/Network Analysis of the Stock Market.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ACADEMY/Networks An introduction_.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ACADEMY/QEPM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/network_monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/network_prova.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_moduls/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_moduls/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_moduls/stock_dataframe_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/daily_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/period_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickle_obj/read_pickle_df.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickle_obj/write_pickle_df.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/data/All.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/data/All2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/data/Dow30.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/data/dbFianle.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/data/stocksInvesting(onlyUSstocks).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/data/~$All.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/data/~$All2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/data/~$All3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_with_edo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trading_tool.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/american_stock_dataframes/A.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/A.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova_con_edo.py" beforeDir="false" afterPath="$PROJECT_DIR$/prova.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,13 +84,39 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mirko\Desktop\financial_markets_academy" />
+      <recent name="C:\Users\Mirko\Desktop\financial_markets_academy\pickle_obj" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mirko\Desktop\financial_markets_academy" />
       <recent name="C:\Users\Mirko\Desktop\Corsi\financial_markets_academy\pickle_obj" />
     </key>
   </component>
   <component name="RunManager" selected="Python.prova_pickle (1)">
-    <configuration name="prova_con_edo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_with_edo" />
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="trading_tool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prova" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="trading_tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -65,7 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prova_con_edo.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Mirko\Desktop\financial_markets_academy\prova.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +137,7 @@
       <method v="2" />
     </configuration>
     <configuration name="prova_pickle (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_with_edo" />
+      <module name="trading_tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -96,7 +158,7 @@
       <method v="2" />
     </configuration>
     <configuration name="prova_pickle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_with_edo" />
+      <module name="trading_tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -114,6 +176,81 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="trading_tool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="trading_tool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="trading_tool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="trading_tool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="trading_tool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -188,6 +325,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primo commit" />
@@ -236,10 +374,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1896" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610631517243" />
-    <state x="139" y="184" key="SettingsEditor" timestamp="1610630755613">
+    <state x="-51" y="156" key="SettingsEditor" timestamp="1610631991587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="139" y="184" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610630755613" />
+    <state x="-51" y="156" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610631991587" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610631494536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
