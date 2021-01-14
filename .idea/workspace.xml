@@ -19,25 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="ambiente">
-      <change afterPath="$PROJECT_DIR$/ACADEMY/Chan-1996-Momentum-strategies.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACADEMY/Jegadeesh-2001-Profitability-of-momentum-strategie.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACADEMY/Lee-2000-Price-momentum-and-trading-volume.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACADEMY/Network Analysis of the Stock Market.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACADEMY/Networks An introduction_.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACADEMY/QEPM.pdf" afterDir="false" />
+    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[PERIOD-APP]">
       <change afterPath="$PROJECT_DIR$/analysis/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/analysis/network_monitor.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/analysis/network_prova.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api_moduls/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_moduls/api.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api_moduls/stock_dataframe_class.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/applications/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/daily_app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/applications/period_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pickle_obj/read_pickle_df.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pickle_obj/write_pickle_df.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/All.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/data/All2.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/data/Dow30.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/data/dbFianle.xlsx" afterDir="false" />
@@ -46,14 +35,9 @@
       <change afterPath="$PROJECT_DIR$/static/data/~$All.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/data/~$All2.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/data/~$All3.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_with_edo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trading_tool.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/american_stock_dataframes/A.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/A.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/read_pickle_df.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/read_pickle_df.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prova_con_edo.py" beforeDir="false" afterPath="$PROJECT_DIR$/prova.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -312,7 +296,70 @@
       <option name="project" value="LOCAL" />
       <updated>1610631489394</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[ACADEMY] (Network Theory, Momentum and Quantitative Equity Portfolio Management)">
+      <created>1610632791361</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610632791361</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[OTHER]">
+      <created>1610632816861</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610632816861</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[Pipfile]">
+      <created>1610632833532</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610632833532</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[RENAME]">
+      <created>1610632847433</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610632847433</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[WRITE-PICKLE]">
+      <created>1610632875053</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610632875053</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[READ-PICKLE]">
+      <created>1610632882234</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610632882234</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[DAILY-APP]">
+      <created>1610632899066</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610632899066</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[API-FUNCTION]">
+      <created>1610632914836</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610632914836</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[FILE-XLSX-TICKERS]">
+      <created>1610632937293</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1610632937293</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,7 +378,17 @@
     <MESSAGE value="primo commit" />
     <MESSAGE value="print" />
     <MESSAGE value="ambiente" />
-    <option name="LAST_COMMIT_MESSAGE" value="ambiente" />
+    <MESSAGE value="[ACADEMY] (Network Theory, Momentum and Quantitative Equity Portfolio Management)" />
+    <MESSAGE value="[OTHER]" />
+    <MESSAGE value="[Pipfile]" />
+    <MESSAGE value="[RENAME]" />
+    <MESSAGE value="[WRITE-PICKLE]" />
+    <MESSAGE value="[READ-PICKLE]" />
+    <MESSAGE value="[DAILY-APP]" />
+    <MESSAGE value="[API-FUNCTION]" />
+    <MESSAGE value="[FILE-XLSX-TICKERS]" />
+    <MESSAGE value="[PERIOD-APP]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PERIOD-APP]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1610555808047">
@@ -378,10 +435,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-51" y="156" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610631991587" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610631494536">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610632947853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610631494536" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610632947853" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
