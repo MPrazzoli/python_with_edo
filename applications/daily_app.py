@@ -2,7 +2,7 @@
 from datetime import date, timedelta
 
 # Project's imports
-from moduls.api import api_function
+from api_moduls.api import api_function
 from pickle_obj.read_pickle_df import read_from_pickle, read_not_found_from_pickle
 from pickle_obj.write_pickle_df import write_to_pickle, write_not_found_from_pickle
 
