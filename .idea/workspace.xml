@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[DELETE][FILES]">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" afterDir="false" />
+    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[PIPENV]&#10;new dependencies: requests">
+      <change afterPath="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +46,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/data" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mirko\Desktop\financial_markets_academy\static\data" />
       <recent name="C:\Users\Mirko\Desktop\financial_markets_academy" />
       <recent name="C:\Users\Mirko\Desktop\financial_markets_academy\pickle_obj" />
     </key>
@@ -514,7 +512,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610635145121</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="[FETCH][TICKERS][DEGIRO]">
+      <created>1610636713472</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1610636713472</updated>
+    </task>
+    <task id="LOCAL-00035" summary="[PIPENV]&#10;new dependencies: requests">
+      <created>1610636751491</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610636751491</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -530,8 +542,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="print" />
-    <MESSAGE value="ambiente" />
     <MESSAGE value="[ACADEMY] (Network Theory, Momentum and Quantitative Equity Portfolio Management)" />
     <MESSAGE value="[Pipfile]" />
     <MESSAGE value="[RENAME]" />
@@ -555,7 +565,9 @@
     <MESSAGE value="[CORRELATION-PICKLE]" />
     <MESSAGE value="[OTHER]" />
     <MESSAGE value="[DELETE][FILES]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[DELETE][FILES]" />
+    <MESSAGE value="[FETCH][TICKERS][DEGIRO]" />
+    <MESSAGE value="[PIPENV]&#10;new dependencies: requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PIPENV]&#10;new dependencies: requests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1610555808047">
@@ -566,46 +578,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610555729889" />
-    <state width="1899" height="347" key="GridCell.Tab.0.bottom" timestamp="1610636021881">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1610636771221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610636021881" />
-    <state width="1899" height="347" key="GridCell.Tab.0.center" timestamp="1610636021881">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610636771221" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1610636771221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610636021881" />
-    <state width="1899" height="347" key="GridCell.Tab.0.left" timestamp="1610636021881">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610636771221" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1610636771221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610636021881" />
-    <state width="1899" height="347" key="GridCell.Tab.0.right" timestamp="1610636021881">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610636771221" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1610636771221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610636021881" />
-    <state width="1899" height="347" key="GridCell.Tab.1.bottom" timestamp="1610636018942">
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610636771221" />
+    <state width="1899" height="347" key="GridCell.Tab.1.bottom" timestamp="1610636652077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610636018942" />
-    <state width="1899" height="347" key="GridCell.Tab.1.center" timestamp="1610636018942">
+    <state width="1899" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610636652077" />
+    <state width="1899" height="347" key="GridCell.Tab.1.center" timestamp="1610636652077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610636018942" />
-    <state width="1899" height="347" key="GridCell.Tab.1.left" timestamp="1610636018942">
+    <state width="1899" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610636652077" />
+    <state width="1899" height="347" key="GridCell.Tab.1.left" timestamp="1610636652077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610636018942" />
-    <state width="1899" height="347" key="GridCell.Tab.1.right" timestamp="1610636018942">
+    <state width="1899" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610636652077" />
+    <state width="1899" height="347" key="GridCell.Tab.1.right" timestamp="1610636652077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610636018942" />
-    <state x="325" y="329" key="SettingsEditor" timestamp="1610636269260">
+    <state width="1899" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610636652077" />
+    <state x="269" y="194" key="SettingsEditor" timestamp="1610636513928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="325" y="329" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610636269260" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610635193688">
+    <state x="269" y="194" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610636513928" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610636765208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610635193688" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610636765208" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
