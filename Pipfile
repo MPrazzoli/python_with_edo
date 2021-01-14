@@ -8,6 +8,7 @@ quantlib = "*"
 yfinance = "*"
 investpy = "*"
 datetime = "*"
+xlrd = "*"
 
 [dev-packages]
 
