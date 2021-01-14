@@ -40,10 +40,10 @@ def api_function(start, end, not_found_tickers, daily_app):
     project_root = os.path.dirname(os.path.dirname(__file__))
     data_path = project_root + '/static/data'
 
-    # Getting the list of all tickers we are interested in from the All.xlsx excel file,
+    # Getting the list of all tickers we are interested in from the ticker_isin_file.xlsx excel file,
     # then a StockListClass instance is initialize to store the list of tickers and the list
     # of isin which we insert in our excel file
-    ticker_python = pd.read_excel(data_path + '/All.xlsx', sheet_name='all')
+    ticker_python = pd.read_excel(data_path + '/ticker_isin_file.xlsx', sheet_name='American')
     ticker_python.set_index('ticker', inplace=True)  # Setting the index of ticker_python DataFrame with Tickers columns
 
     ticker_python.drop(not_found_tickers, inplace=True)

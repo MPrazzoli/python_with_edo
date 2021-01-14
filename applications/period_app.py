@@ -9,7 +9,7 @@ from pickle_obj.write_pickle_df import write_to_pickle, write_not_found_from_pic
 #TODO: aggiungi un file pkl per tenere traccia dell'ultimo giorno osservato e salvato per poi fare un retrieving da quella data ultima osservata ad oggi +1 gg per yahoo finance
 def main():
     # Setting of Start date and End date of our retrieving period
-    start_date = date.today() - timedelta(740)
+    start_date = date.today() - timedelta(743)
     end_date = date.today() + timedelta(1)
 
     try:
