@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[OTHER]">
+    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[TICKER-ISIN-XSLX]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -556,7 +556,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610639189514</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="[UPDATE][FETCH][TICKERS][DEGIRO]&#10;updated rule to convert Degiro tickers into YF tickers">
+      <created>1610639729713</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1610639729713</updated>
+    </task>
+    <task id="LOCAL-00041" summary="[OTHER]">
+      <created>1610639743905</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1610639743905</updated>
+    </task>
+    <task id="LOCAL-00042" summary="[TICKER-ISIN-XSLX]">
+      <created>1610639774130</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1610639774130</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -572,8 +593,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[ACADEMY] (Network Theory, Momentum and Quantitative Equity Portfolio Management)" />
-    <MESSAGE value="[Pipfile]" />
     <MESSAGE value="[RENAME]" />
     <MESSAGE value="[WRITE-PICKLE]" />
     <MESSAGE value="[READ-PICKLE]" />
@@ -596,8 +615,10 @@
     <MESSAGE value="[DELETE][FILES]" />
     <MESSAGE value="[PIPENV]&#10;new dependencies: requests" />
     <MESSAGE value="[FETCH][TICKERS][DEGIRO]" />
+    <MESSAGE value="[UPDATE][FETCH][TICKERS][DEGIRO]&#10;updated rule to convert Degiro tickers into YF tickers" />
     <MESSAGE value="[OTHER]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[OTHER]" />
+    <MESSAGE value="[TICKER-ISIN-XSLX]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TICKER-ISIN-XSLX]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1610555808047">
@@ -608,22 +629,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610555729889" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1610639205151">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1610639498836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610639205151" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1610639205151">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610639498836" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1610639498836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610639205151" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1610639205151">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610639498836" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1610639498836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610639205151" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1610639205151">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610639498836" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1610639498836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610639205151" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610639498836" />
     <state width="1899" height="347" key="GridCell.Tab.1.bottom" timestamp="1610636652077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
