@@ -4,7 +4,7 @@ import pandas as pd
 import time
 
 # Project's imports
-from moduls.stock_dataframe_class import StockClass, StockListClass
+from api_moduls.stock_dataframe_class import StockClass, StockListClass
 
 
 def read_available_ticker_from_pickle():
