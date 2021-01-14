@@ -10,6 +10,8 @@ investpy = "*"
 datetime = "*"
 xlrd = "*"
 openpyxl = "*"
+requests = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 
