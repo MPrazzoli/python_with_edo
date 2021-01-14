@@ -21,58 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[OTHER]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_moduls/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_moduls/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/period_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/period_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/BITA.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/BSTC.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/YUMA.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/A.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ABM.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AXAS.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BB.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCOR.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCRX.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BDR.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BDSI.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BDSX.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BDTX.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BE.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BEAT.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BFRA.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BGI.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BHVN.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BIIB.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BIOL.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BIOX.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BITA.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BJ.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BJRI.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BKH.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BKI.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BKTI.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BL.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BLFS.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BLK.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BLKB.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BLMN.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BLNK.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BLRX.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BMRA.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BMRN.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BNGO.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BNTX.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSGM.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSTC.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BTAI.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BTBT.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BVXV.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BXMT.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HRB.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PHGE.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCPC.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YUMA.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/data/All.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/ticker_isin_file.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +62,7 @@
       <recent name="C:\Users\Mirko\Desktop\Corsi\financial_markets_academy\pickle_obj" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fetch_tickers_isin_from_degiro (1)">
+  <component name="RunManager" selected="Python.period_app">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="trading_tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -318,8 +266,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fetch_tickers_isin_from_degiro (1)" />
         <item itemvalue="Python.period_app" />
+        <item itemvalue="Python.fetch_tickers_isin_from_degiro (1)" />
         <item itemvalue="Python.fetch_tickers_isin_from_degiro" />
         <item itemvalue="Python.fetch_tickers_isin_from_degiro2" />
         <item itemvalue="Python.daily_app" />
@@ -594,7 +542,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610636838096</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="[OTHER]">
+      <created>1610639169423</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1610639169423</updated>
+    </task>
+    <task id="LOCAL-00039" summary="[OTHER]">
+      <created>1610639189513</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1610639189514</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -646,22 +608,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610555729889" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1610637235451">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1610639205151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610637235451" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1610637235451">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610639205151" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1610639205151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610637235451" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1610637235451">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610639205151" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1610639205151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610637235451" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1610637235451">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610639205151" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1610639205151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610637235451" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610639205151" />
     <state width="1899" height="347" key="GridCell.Tab.1.bottom" timestamp="1610636652077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -682,9 +644,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="269" y="194" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610636513928" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610636843589">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610639192844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610636843589" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610639192844" />
   </component>
 </project>
