@@ -9,6 +9,7 @@ yfinance = "*"
 investpy = "*"
 datetime = "*"
 xlrd = "*"
+openpyxl = "*"
 
 [dev-packages]
 

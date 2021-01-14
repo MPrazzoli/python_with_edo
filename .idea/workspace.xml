@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[STOCK-CLASS][DATAFRAME]&#10;delete import of a module which is not use anymore">
+    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[PIPENV]&#10;installation of xlrd to read xlsx files">
       <change afterPath="$PROJECT_DIR$/analysis/network_prova.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/data/All2.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/data/Dow30.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/data/dbFianle.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/data/stocksInvesting(onlyUSstocks).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_moduls/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_moduls/api.py" afterDir="false" />
@@ -436,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610633900989</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="[PIPENV]&#10;installation of xlrd to read xlsx files">
+      <created>1610634145596</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610634145596</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -472,7 +480,8 @@
     <MESSAGE value="[OTHER]" />
     <MESSAGE value="[NETWORK-MONITOR]" />
     <MESSAGE value="[STOCK-CLASS][DATAFRAME]&#10;delete import of a module which is not use anymore" />
-    <option name="LAST_COMMIT_MESSAGE" value="[STOCK-CLASS][DATAFRAME]&#10;delete import of a module which is not use anymore" />
+    <MESSAGE value="[PIPENV]&#10;installation of xlrd to read xlsx files" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PIPENV]&#10;installation of xlrd to read xlsx files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1610555808047">
@@ -483,42 +492,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610555729889" />
-    <state width="1899" height="347" key="GridCell.Tab.0.bottom" timestamp="1610633987793">
+    <state width="1899" height="347" key="GridCell.Tab.0.bottom" timestamp="1610634172583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610633987793" />
-    <state width="1899" height="347" key="GridCell.Tab.0.center" timestamp="1610633987792">
+    <state width="1899" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610634172583" />
+    <state width="1899" height="347" key="GridCell.Tab.0.center" timestamp="1610634172583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610633987792" />
-    <state width="1899" height="347" key="GridCell.Tab.0.left" timestamp="1610633987792">
+    <state width="1899" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610634172583" />
+    <state width="1899" height="347" key="GridCell.Tab.0.left" timestamp="1610634172582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610633987792" />
-    <state width="1899" height="347" key="GridCell.Tab.0.right" timestamp="1610633987793">
+    <state width="1899" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610634172582" />
+    <state width="1899" height="347" key="GridCell.Tab.0.right" timestamp="1610634172583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610633987793" />
-    <state width="1899" height="347" key="GridCell.Tab.1.bottom" timestamp="1610633974573">
+    <state width="1899" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610634172583" />
+    <state width="1899" height="347" key="GridCell.Tab.1.bottom" timestamp="1610634169146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610633974573" />
-    <state width="1899" height="347" key="GridCell.Tab.1.center" timestamp="1610633974573">
+    <state width="1899" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610634169146" />
+    <state width="1899" height="347" key="GridCell.Tab.1.center" timestamp="1610634169146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610633974573" />
-    <state width="1899" height="347" key="GridCell.Tab.1.left" timestamp="1610633974573">
+    <state width="1899" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610634169146" />
+    <state width="1899" height="347" key="GridCell.Tab.1.left" timestamp="1610634169146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610633974573" />
-    <state width="1899" height="347" key="GridCell.Tab.1.right" timestamp="1610633974573">
+    <state width="1899" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610634169146" />
+    <state width="1899" height="347" key="GridCell.Tab.1.right" timestamp="1610634169146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610633974573" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1610634098882">
+    <state width="1899" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610634169146" />
+    <state x="584" y="16" key="SettingsEditor" timestamp="1610634236487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610634098882" />
+    <state x="584" y="16" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610634236487" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610633464412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -540,7 +549,7 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/api_moduls/api.py</url>
           <line>40</line>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
