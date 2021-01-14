@@ -3,7 +3,6 @@ import pandas as pd
 import yfinance as yf
 from datetime import date, timedelta
 from QuantLib import *
-from common.database import Database
 
 
 class StockClass(object):
