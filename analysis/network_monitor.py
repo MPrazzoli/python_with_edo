@@ -31,10 +31,43 @@ def network_monitor_function():
 
     # construction of the adjusted close prices
     adjclose_df = pd.DataFrame([stock_object_dictionary['{0}'.format(element)].history['Adj Close'] for element in
-                                stock_object_dictionary.copy()], index=list(stock_object_dictionary.keys())).transpose()
+                                stock_object_dictionary.copy()], index=list(stock_object_dictionary.keys())).transpose().astype('float32')
 
+    # manage nan value and take off (in the read module) those series with too many nan, or with observation that are not at least the 60% of the total analysis period
+    corr_matrix_adjclose = np.corrcoef(adjclose_df.transpose().to_numpy()).astype('float32')    # int64arr = ones((1024, 1024), dtype=np.uint64)
+    upper_trin_corr_matrix = np.triu(corr_matrix_adjclose, 1).astype('float32')
+    np.where(upper_trin_corr_matrix <= 0.000001, np.nan, upper_trin_corr_matrix)
+    quantile = np.nanquantile(upper_trin_corr_matrix, 0.75).astype('float32')
+    np.where(corr_matrix_adjclose <= quantile, 0, corr_matrix_adjclose)
+
+
+
+    # np.savetxt("test2CorrMatrix.csv", corr_matrix_adjclose, delimiter=",")
     # correlation method: pearson, kendall, spearman and callable
-    corr_matrix_adjclose = adjclose_df.corr(method='pearson')
+    # corr_matrix_adjclose = adjclose_df.corr(method='pearson').astype('float16')
+
+    '''numpy.core._exceptions.MemoryError: Unable to allocate 197. MiB for an array with shape (1, 25786084) and data type float64'''
+
+    del stock_object_dictionary
+
+    quantile = corr_matrix_adjclose.melt().value.quantile(0.75).astype('float16')
+
+    corr_matrix_adjclose.apply(lambda x: [y if y >= quantile else 0 for y in x])
+    # numpy compute corr in horizontal, it is necessary to convert the transposed dataframe (example adjclose_df.transpose())
+    # to numpy (from dataframe to array) and then compute the correlation matrix as num = np.corrcoef(adjclose_df.transpose())
+    # trin = np.triu(num, 1) prendo solamente il triangolo sopra la diagonale e il resto lo metto a zero
+    # np.where(trin <= 0.000001, np.nan, trin) sostituisco tutti i valori di trin che sono prossimi a zerocon nan
+    # quantile = np.nanquantile(ok, 0.75)  calcolo il quantile che voglio escludendo i nan
+    # np.where(num <= quantile, 0, num) metto tutti le correlazioni inferiori alla soglia determinata pari a zero e così
+    # la mia matrice di correlazione diventa un' adjacency matrix
+
+
+     # poi costruire il network con 
+
+    ######## Not useful anymore np.fill_diagonal(num2, np.nan)
+    # quantile np.quantile(num, 0.75)
+    # np.fill_diagonal(num2, np.nan)
+    print(corr_matrix_adjclose)
 
     '''
     #############################################################################
@@ -55,6 +88,12 @@ def network_monitor_function():
     # Computation of log return of each stock over adjusted close prices
     # if you want there is also the method --> df['pct_change'] = df.price.pct_change()
     # and it compute percentage change
+
+
+
+
+
+
 
     log_return_adjclose_df = pd.DataFrame()
     for i, col in enumerate(column_headers_list):

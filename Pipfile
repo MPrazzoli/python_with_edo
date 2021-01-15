@@ -12,6 +12,8 @@ xlrd = "*"
 openpyxl = "*"
 requests = "*"
 beautifulsoup4 = "*"
+matplotlib = "*"
+psutil = "*"
 
 [dev-packages]
 
