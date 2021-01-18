@@ -19,34 +19,91 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[PICKLE][20190102-20210114]">
+    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[PICKLE][NOT-FOUND][20210114]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis/network_monitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/network_monitor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/daily_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/daily_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/AFSI-PA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/AFSI-PA.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/AGM-PA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/AGM-PA.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/AIMT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/AIMT.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/AKCA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/AKCA.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/AMAG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/AMAG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/BCRH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/BCRH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/BHAC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/BHAC.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/BITA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/BITA.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/BK-PC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/BK-PC.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/BREW.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/BREW.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/BRPM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/BRPM.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/BSTC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/BSTC.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/CETV.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/CETV.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/CIVI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/CIVI.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/CUO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/CUO.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/DLR-PG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/DLR-PG.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/DLR-PI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/DLR-PI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/DTLA-.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/DTLA-.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/DTQ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/DTQ.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/EE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/EE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/ESCRP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/ESCRP.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/EZT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/EZT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/FLF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/FLF.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/FORK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/FORK.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/FRC-PF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/FRC-PF.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/FSCT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/FSCT.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/FTACU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/FTACU.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/FTNW.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/FTNW.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/GRP-U.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/GRP-U.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/GSB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/GSB.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/GV.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/GV.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/HDS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/HDS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/HH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/HH.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/HUD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/HUD.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/HYGO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/HYGO.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/IBKCO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/IBKCO.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/INWK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/INWK.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/IOTS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/IOTS.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/JBR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/JBR.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/JCAP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/JCAP.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/KEM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/KEM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/KSU-.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/KSU-.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/LFACU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/LFACU.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/MELR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/MELR.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/MFO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/MFO.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/MLNX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/MLNX.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/MNTA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/MNTA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/MTL-.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/MTL-.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/MYOK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/MYOK.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/NEE-PI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/NEE-PI.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/NEE-PJ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/NEE-PJ.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/NLY-PD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/NLY-PD.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/PACQU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/PACQU.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/PDLI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/PDLI.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/PFNX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/PFNX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/PIY.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/PIY.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/PNC-PQ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/PNC-PQ.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/PRE-PF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/PRE-PF.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/PRH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/PRH.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/PRNB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/PRNB.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/PSA-PW.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/PSA-PW.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/PSA-V-CL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/PSA-V-CL.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/SOHOL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/SOHOL.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/SOHOM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/SOHOM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/TANN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/TANN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/TANO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/TANO.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/TAT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/TAT.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/TCO-PJ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/TCO-PJ.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/THGA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/THGA.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/TIF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/TIF.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/TOTAU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/TOTAU.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/TTPH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/TTPH.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/TZACU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/TZACU.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/WFC-PT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/WFC-PT.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/YIN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/YIN.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/YUMA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/YUMA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/ZOES.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/ZOES.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/read_pickle_df.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/read_pickle_df.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/A.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/A.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AACG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AACG.pkl" afterDir="false" />
@@ -171,6 +228,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AFL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AFL.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AFMD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AFMD.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AFRM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AFRM.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AFSI-PA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AFSI-PA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AFYA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AFYA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGC.pkl" afterDir="false" />
@@ -182,6 +240,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGIO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGIO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGLE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGLE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGM-A.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGM-A.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGM-PA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGM-PA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGM-PC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGM-PC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGMH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AGMH.pkl" afterDir="false" />
@@ -209,6 +268,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AIKI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AIKI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AIM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AIM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AIMC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AIMC.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AIMT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AIMT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AIN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AIN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AINC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AINC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AINV.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AINV.pkl" afterDir="false" />
@@ -225,6 +285,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AJX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AJX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AKAM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AKAM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AKBA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AKBA.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AKCA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AKCA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AKER.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AKER.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AKO-A.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AKO-A.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AKO-B.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AKO-B.pkl" afterDir="false" />
@@ -281,6 +342,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ALXO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ALXO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ALYA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ALYA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AM.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AMAG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AMAG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AMAL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AMAL.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AMAT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AMAT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AMBA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AMBA.pkl" afterDir="false" />
@@ -618,6 +680,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCOR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCOR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCOV.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCOV.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCPC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCPC.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCRH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCRH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCRX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCRX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCSF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BCSF.pkl" afterDir="false" />
@@ -660,6 +723,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BGS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BGS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BGSF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BGSF.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BH.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BHAC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BHAC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BHAT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BHAT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BHB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BHB.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BHC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BHC.pkl" afterDir="false" />
@@ -682,8 +746,10 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BIOL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BIOL.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BIOX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BIOX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BIPC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BIPC.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BITA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BITA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BJ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BJ.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BJRI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BJRI.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BK-PC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BK-PC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BK.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BKD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BKD.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BKE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BKE.pkl" afterDir="false" />
@@ -763,6 +829,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRBR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRBR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRC.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BREW.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BREW.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BREZ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BREZ.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRFS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRFS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRID.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRID.pkl" afterDir="false" />
@@ -776,6 +843,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRPA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRPA.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRPM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRPM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRQS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRQS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BRX.pkl" afterDir="false" />
@@ -789,6 +857,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSQR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSQR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSRR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSRR.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSTC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSTC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSVN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSVN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSY.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/BSY.pkl" afterDir="false" />
@@ -954,6 +1023,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CERN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CERN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CERS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CERS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CERT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CERT.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CETV.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CETV.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CETX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CETX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CEVA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CEVA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CF.pkl" afterDir="false" />
@@ -1026,6 +1096,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CIR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CIR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CIT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CIT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CIVB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CIVB.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CIVI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CIVI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CIX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CIX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CIZN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CIZN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CJJD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CJJD.pkl" afterDir="false" />
@@ -1279,6 +1350,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CUE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CUE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CUK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CUK.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CULP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CULP.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CUO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CUO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CURI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CURI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CURO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CURO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CUTR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/CUTR.pkl" afterDir="false" />
@@ -1415,6 +1487,8 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLNG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLNG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLPN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLPN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLR-PC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLR-PC.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLR-PG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLR-PG.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLR-PI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLR-PI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLR-PJ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLR-PJ.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLTH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DLTH.pkl" afterDir="false" />
@@ -1469,6 +1543,8 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DTE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DTE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DTEA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DTEA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DTIL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DTIL.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DTLA-.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DTLA-.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DTQ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DTQ.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DTSS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DTSS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DUK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DUK.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DUKH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/DUKH.pkl" afterDir="false" />
@@ -1527,6 +1603,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EDTK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EDTK.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EDU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EDU.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EDUC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EDUC.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EEFT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EEFT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EEX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EEX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EFOI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EFOI.pkl" afterDir="false" />
@@ -1628,6 +1705,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ERYP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ERYP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ES.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ES.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ESCA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ESCA.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ESCRP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ESCRP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ESE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ESE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ESEA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ESEA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ESGC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ESGC.pkl" afterDir="false" />
@@ -1697,6 +1775,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EYES.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EYES.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EYPT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EYPT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EZPW.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EZPW.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EZT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/EZT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/F.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/F.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FAF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FAF.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FAII.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FAII.pkl" afterDir="false" />
@@ -1781,6 +1860,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FL.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FLDM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FLDM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FLEX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FLEX.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FLF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FLF.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FLGT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FLGT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FLIC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FLIC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FLIR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FLIR.pkl" afterDir="false" />
@@ -1823,6 +1903,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FONR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FONR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FOR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FOR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FORD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FORD.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FORK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FORK.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FORM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FORM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FORR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FORR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FORTY.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FORTY.pkl" afterDir="false" />
@@ -1837,6 +1918,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FPRX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FPRX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRBA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRBA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRBK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRBK.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRC-PF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRC-PF.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRD.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FREE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FREE.pkl" afterDir="false" />
@@ -1854,6 +1936,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRTA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FRTA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSBW.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSBW.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSCT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSCT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSDC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSDC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSFG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSFG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSI.pkl" afterDir="false" />
@@ -1867,6 +1950,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSTR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSTR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSTX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSTX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSV.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FSV.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTACU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTACU.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTCH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTCH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTDR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTDR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTEK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTEK.pkl" afterDir="false" />
@@ -1876,6 +1960,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTIV.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTIV.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTK.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTNT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTNT.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTNW.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTNW.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTOC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTOC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTV.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/FTV.pkl" afterDir="false" />
@@ -2063,6 +2148,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GRNQ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GRNQ.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GRNV.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GRNV.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GROW.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GROW.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GRP-U.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GRP-U.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GRPN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GRPN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GRSV.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GRSV.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GRTS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GRTS.pkl" afterDir="false" />
@@ -2076,6 +2162,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GSAH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GSAH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GSAT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GSAT.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GSB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GSB.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GSBC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GSBC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GSBD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GSBD.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GSHD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GSHD.pkl" afterDir="false" />
@@ -2105,6 +2192,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GTY.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GTY.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GTYH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GTYH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GURE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GURE.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GV.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GV.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GVA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GVA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GVP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GVP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GWAC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/GWAC.pkl" afterDir="false" />
@@ -2150,6 +2238,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HCSG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HCSG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HD.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HDB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HDB.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HDS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HDS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HDSN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HDSN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HEAR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HEAR.pkl" afterDir="false" />
@@ -2169,6 +2258,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HGEN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HGEN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HGSH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HGSH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HGV.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HGV.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HHC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HHC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HHR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HHR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HI.pkl" afterDir="false" />
@@ -2240,6 +2330,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HRTG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HRTG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HRTH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HRTH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HRTX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HRTX.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HSBC-PA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HSBC-PA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HSBC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HSBC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HSC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HSC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HSDT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HSDT.pkl" afterDir="false" />
@@ -2265,6 +2356,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUBB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUBB.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUBG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUBG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUBS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUBS.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUD.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUGE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUGE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUIZ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUIZ.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HUM.pkl" afterDir="false" />
@@ -2286,6 +2378,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HXL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HXL.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HY.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HY.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HYFM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HYFM.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HYGO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HYGO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HYLN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HYLN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HYMC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HYMC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HYRE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/HYRE.pkl" afterDir="false" />
@@ -2303,6 +2396,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBCP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBCP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBEX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBEX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBIO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBIO.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBKCO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBKCO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBKR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBKR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IBN.pkl" afterDir="false" />
@@ -2418,11 +2512,13 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/INVA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/INVA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/INVE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/INVE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/INVH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/INVH.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/INWK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/INWK.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/INZY.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/INZY.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IONS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IONS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IOR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IOR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IOSP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IOSP.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IOTS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IOTS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IOVA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IOVA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IPAR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/IPAR.pkl" afterDir="false" />
@@ -2497,8 +2593,10 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JBHT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JBHT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JBL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JBL.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JBLU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JBLU.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JBR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JBR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JBSS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JBSS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JBT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JBT.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JCAP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JCAP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JCI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JCI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JCOM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JCOM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JCS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/JCS.pkl" afterDir="false" />
@@ -2559,6 +2657,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KELYA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KELYA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KELYB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KELYB.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KEM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KEM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KEN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KEN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KEP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KEP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KEQU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KEQU.pkl" afterDir="false" />
@@ -2628,6 +2727,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KRYS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KRYS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KSPN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KSPN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KSS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KSS.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KSU-.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KSU-.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KSU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KSU.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KTB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/KTB.pkl" afterDir="false" />
@@ -2696,6 +2796,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LEU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LEU.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LEVI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LEVI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LEVL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LEVL.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LFACU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LFACU.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LFC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LFC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LFTR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LFTR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LFUS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/LFUS.pkl" afterDir="false" />
@@ -2900,6 +3001,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MEI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MEI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MEIP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MEIP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MELI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MELI.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MELR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MELR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MEOH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MEOH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MERC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MERC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MESA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MESA.pkl" afterDir="false" />
@@ -2916,6 +3018,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MFH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MFH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MFIN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MFIN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MFNC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MFNC.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MFO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MFO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MGA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MGA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MGEE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MGEE.pkl" afterDir="false" />
@@ -2966,6 +3069,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLND.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLND.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLNX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLNX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLSS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MLSS.pkl" afterDir="false" />
@@ -2988,6 +3092,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MNRO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MNRO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MNSO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MNSO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MNST.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MNST.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MNTA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MNTA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MNTX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MNTX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MOD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MOD.pkl" afterDir="false" />
@@ -3073,6 +3178,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTEX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTEX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTH.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTL-.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTL-.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTL.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTLS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTLS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MTN.pkl" afterDir="false" />
@@ -3105,6 +3211,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYFW.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYFW.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYGN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYGN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYO.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYOK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYOK.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYOV.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYOV.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYRG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYRG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYSZ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/MYSZ.pkl" afterDir="false" />
@@ -3143,6 +3250,8 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NDLS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NDLS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NDRA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NDRA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NDSN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NDSN.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NEE-PI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NEE-PI.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NEE-PJ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NEE-PJ.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NEE-PK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NEE-PK.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NEE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NEE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NEM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NEM.pkl" afterDir="false" />
@@ -3206,9 +3315,11 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLSN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLSN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLTX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLTX.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLY-PD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLY-PD.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLY-PF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLY-PF.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLY-PG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLY-PG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLY.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NLY.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NM-PG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NM-PG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NMIH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NMIH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NMK-PB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/NMK-PB.pkl" afterDir="false" />
@@ -3355,6 +3466,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFED.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFED.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFG-PA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFG-PA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFG-PB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFG-PB.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFG-PD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFG-PD.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFIX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFIX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFLX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/OFLX.pkl" afterDir="false" />
@@ -3465,6 +3577,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PACB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PACB.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PACE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PACE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PACK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PACK.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PACQU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PACQU.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PACW.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PACW.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PAG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PAG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PAGP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PAGP.pkl" afterDir="false" />
@@ -3522,6 +3635,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PDEX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PDEX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PDFS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PDFS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PDLB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PDLB.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PDLI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PDLI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PDM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PDM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PDSB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PDSB.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PEAK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PEAK.pkl" afterDir="false" />
@@ -3557,6 +3671,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFIN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFIN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFIS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFIS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFMT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFMT.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFNX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFNX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFPT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFPT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFSI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PFSI.pkl" afterDir="false" />
@@ -3591,6 +3706,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PIPR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PIPR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PIRS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PIRS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PIXY.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PIXY.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PIY.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PIY.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PJT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PJT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PK.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PKBK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PKBK.pkl" afterDir="false" />
@@ -3632,6 +3748,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PMVP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PMVP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PNBK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PNBK.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PNC-PP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PNC-PP.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PNC-PQ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PNC-PQ.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PNC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PNC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PNFP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PNFP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PNM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PNM.pkl" afterDir="false" />
@@ -3663,6 +3780,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRAX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRAX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRCH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRCH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRDO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRDO.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRE-PF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRE-PF.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRE-PG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRE-PG.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRE-PH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRE-PH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRE-PI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRE-PI.pkl" afterDir="false" />
@@ -3671,12 +3789,14 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRGO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRGO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRGS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRGS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRGX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRGX.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRIM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRIM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRK.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRLB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRLB.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRLD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRLD.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRMW.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRMW.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRNB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRNB.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PRO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PROF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PROF.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PROG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PROG.pkl" afterDir="false" />
@@ -3700,6 +3820,8 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSA-PD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSA-PD.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSA-PE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSA-PE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSA-PF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSA-PF.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSA-PW.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSA-PW.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSA-V-CL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSA-V-CL.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSAC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSAC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/PSB.pkl" afterDir="false" />
@@ -4204,6 +4326,8 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOGO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOGO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOHO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOHO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOHOB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOHOB.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOHOL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOHOL.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOHOM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOHOM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOHU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOHU.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/SOL.pkl" afterDir="false" />
@@ -4386,9 +4510,11 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAL.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TALO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TALO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TANH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TANH.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TANN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TANN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TANNI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TANNI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TANNL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TANNL.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TANNZ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TANNZ.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TANO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TANO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAOP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAOP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAP-A.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAP-A.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAP.pkl" afterDir="false" />
@@ -4396,6 +4522,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TARO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TARO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TARS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TARS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAST.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAST.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TATT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TATT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAYD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TAYD.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TBBK.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TBBK.pkl" afterDir="false" />
@@ -4414,6 +4541,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCFC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCFC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCMD.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCMD.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCO-PJ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCO-PJ.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCOM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCOM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCON.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCON.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCPC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TCPC.pkl" afterDir="false" />
@@ -4474,6 +4602,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THCB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THCB.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THFF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THFF.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THG.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THGA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THGA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THMO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THMO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THO.pkl" afterDir="false" />
@@ -4481,6 +4610,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THRM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THRM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THTX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/THTX.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TIF.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TIF.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TIGR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TIGR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TILE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TILE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TIPT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TIPT.pkl" afterDir="false" />
@@ -4526,6 +4656,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TOMZ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TOMZ.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TOPS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TOPS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TOT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TOT.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TOTAU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TOTAU.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TOUR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TOUR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TOWN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TOWN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TPB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TPB.pkl" afterDir="false" />
@@ -4600,6 +4731,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TTMI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TTMI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TTNP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TTNP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TTOO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TTOO.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TTPH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TTPH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TTWO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TTWO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TU.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TUFN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TUFN.pkl" afterDir="false" />
@@ -4630,6 +4762,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TYHT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TYHT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TYL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TYL.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TYME.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TYME.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TZACU.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TZACU.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TZOO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/TZOO.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/U.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/U.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/UA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/UA.pkl" afterDir="false" />
@@ -4889,6 +5022,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WFC-PP.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WFC-PP.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WFC-PQ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WFC-PQ.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WFC-PR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WFC-PR.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WFC-PT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WFC-PT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WFC-PX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WFC-PX.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WFC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WFC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WGO.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/WGO.pkl" afterDir="false" />
@@ -5025,6 +5159,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YETI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YETI.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YEXT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YEXT.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YI.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YIN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YIN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YJ.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YJ.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YMAB.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YMAB.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YMTX.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YMTX.pkl" afterDir="false" />
@@ -5038,6 +5173,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YTEN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YTEN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YTRA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YTRA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YUM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YUM.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YUMA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YUMA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YUMC.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YUMC.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YVR.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YVR.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YY.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/YY.pkl" afterDir="false" />
@@ -5063,6 +5199,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZNH.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZNH.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZNTE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZNTE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZNTL.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZNTL.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZOES.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZOES.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZOM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZOM.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZS.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZS.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZSAN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZSAN.pkl" afterDir="false" />
@@ -5074,6 +5211,7 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZYME.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZYME.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZYNE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZYNE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZYXI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZYXI.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova.py" beforeDir="false" afterPath="$PROJECT_DIR$/prova.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -5137,48 +5275,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fetch_tickers_isin_from_degiro (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="trading_tool" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fetch_tickers_isin_from_degiro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="trading_tool" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Mirko\Desktop\financial_markets_academy\static\data\fetch_tickers_isin_from_degiro.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="network_monitor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -5221,6 +5317,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="prova" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="trading_tool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prova.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="prova_pickle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -5246,9 +5363,9 @@
       <list>
         <item itemvalue="Python.network_monitor" />
         <item itemvalue="Python.prova_pickle" />
+        <item itemvalue="Python.prova" />
         <item itemvalue="Python.daily_app" />
         <item itemvalue="Python.period_app" />
-        <item itemvalue="Python.fetch_tickers_isin_from_degiro (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -5562,7 +5679,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610642248857</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="[PICKLE][20210114]">
+      <created>1610725429580</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1610725429580</updated>
+    </task>
+    <task id="LOCAL-00045" summary="[PICKLE][NOT-FOUND][20210114]">
+      <created>1610725505357</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1610725505357</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -5578,8 +5709,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[WRITE-PICKLE]" />
-    <MESSAGE value="[READ-PICKLE]" />
     <MESSAGE value="[DAILY-APP]" />
     <MESSAGE value="[API-FUNCTION]" />
     <MESSAGE value="[FILE-XLSX-TICKERS]" />
@@ -5603,7 +5732,9 @@
     <MESSAGE value="[OTHER]" />
     <MESSAGE value="[TICKER-ISIN-XSLX]" />
     <MESSAGE value="[PICKLE][20190102-20210114]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PICKLE][20190102-20210114]" />
+    <MESSAGE value="[PICKLE][20210114]" />
+    <MESSAGE value="[PICKLE][NOT-FOUND][20210114]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PICKLE][NOT-FOUND][20210114]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="117" y="272" key="#xdebugger.XInspectDialog" timestamp="1610707900457">
@@ -5618,46 +5749,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610555729889" />
-    <state width="1899" height="500" key="GridCell.Tab.0.bottom" timestamp="1610725149990">
+    <state width="1899" height="480" key="GridCell.Tab.0.bottom" timestamp="1610990289026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="500" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610725149990" />
-    <state width="1899" height="500" key="GridCell.Tab.0.center" timestamp="1610725149990">
+    <state width="1899" height="480" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289026" />
+    <state width="1899" height="480" key="GridCell.Tab.0.center" timestamp="1610990289026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="500" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610725149990" />
-    <state width="1899" height="500" key="GridCell.Tab.0.left" timestamp="1610725149990">
+    <state width="1899" height="480" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289026" />
+    <state width="1899" height="480" key="GridCell.Tab.0.left" timestamp="1610990289026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="500" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610725149990" />
-    <state width="1899" height="500" key="GridCell.Tab.0.right" timestamp="1610725149990">
+    <state width="1899" height="480" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289026" />
+    <state width="1899" height="480" key="GridCell.Tab.0.right" timestamp="1610990289026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="500" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610725149990" />
-    <state width="1899" height="500" key="GridCell.Tab.1.bottom" timestamp="1610725100621">
+    <state width="1899" height="480" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289026" />
+    <state width="1899" height="480" key="GridCell.Tab.1.bottom" timestamp="1610990289495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="500" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610725100621" />
-    <state width="1899" height="500" key="GridCell.Tab.1.center" timestamp="1610725100621">
+    <state width="1899" height="480" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289495" />
+    <state width="1899" height="480" key="GridCell.Tab.1.center" timestamp="1610990289495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="500" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610725100621" />
-    <state width="1899" height="500" key="GridCell.Tab.1.left" timestamp="1610725100621">
+    <state width="1899" height="480" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289495" />
+    <state width="1899" height="480" key="GridCell.Tab.1.left" timestamp="1610990289495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="500" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610725100621" />
-    <state width="1899" height="500" key="GridCell.Tab.1.right" timestamp="1610725100621">
+    <state width="1899" height="480" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289495" />
+    <state width="1899" height="480" key="GridCell.Tab.1.right" timestamp="1610990289495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="500" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610725100621" />
-    <state x="269" y="194" key="SettingsEditor" timestamp="1610705221795">
+    <state width="1899" height="480" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289495" />
+    <state x="269" y="194" key="SettingsEditor" timestamp="1610975666108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="269" y="194" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610705221795" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610642569126">
+    <state x="269" y="194" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610975666108" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610725516021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610642569126" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610725516021" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1610986939686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1610986939686" />
     <state x="749" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1610642195698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -5668,18 +5803,53 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/analysis/network_monitor.py</url>
-          <line>69</line>
+          <line>106</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/analysis/network_monitor.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pickle_obj/prova_pickle.py</url>
           <line>10</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysis/network_monitor.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysis/network_monitor.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prova.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prova.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysis/network_monitor.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysis/network_monitor.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysis/network_monitor.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysis/network_monitor.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

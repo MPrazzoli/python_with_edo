@@ -9,7 +9,7 @@ from pickle_obj.write_pickle_df import write_to_pickle, write_not_found_from_pic
 
 def main():
     # Setting of Start date and End date of our retrieving period
-    start_date = date.today() - timedelta(2)
+    start_date = date.today() - timedelta(3)
     end_date = date.today() + timedelta(1)
 
     try:

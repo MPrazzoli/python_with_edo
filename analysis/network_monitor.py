@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 from datetime import date, timedelta
 import time
+import networkx as nx
+from collections import Counter
 
 # Project's imports
 from api_moduls.stock_dataframe_class import StockListClass
@@ -16,6 +18,9 @@ def network_monitor_function():
     end_date = date.today().strftime('%Y-%m-%d')
     stock_object_dictionary = read_data_for_analysis_linearInterp_for_nan(max_not_found_record=5, start=start_date,
                                                                           end=end_date)
+    ticker_list = []
+    for element in stock_object_dictionary:
+        ticker_list.append(element)
 
     # construction of the open prices
     # open_df = pd.DataFrame([stock_object_dictionary['{0}'.format(element)].history['Open'] for element in
@@ -35,12 +40,11 @@ def network_monitor_function():
 
     # manage nan value and take off (in the read module) those series with too many nan, or with observation that are not at least the 60% of the total analysis period
     corr_matrix_adjclose = np.corrcoef(adjclose_df.transpose().to_numpy()).astype('float32')    # int64arr = ones((1024, 1024), dtype=np.uint64)
+    # corr_matrix_adjclose = adjclose_df.corr(method='pearson').astype('float32')
     upper_trin_corr_matrix = np.triu(corr_matrix_adjclose, 1).astype('float32')
-    np.where(upper_trin_corr_matrix <= 0.000001, np.nan, upper_trin_corr_matrix)
+    upper_trin_corr_matrix = np.where(upper_trin_corr_matrix <= 0.000001, np.nan, upper_trin_corr_matrix) # mettere intervallo intorno a zero se si vogliono tenere le incorrelate
     quantile = np.nanquantile(upper_trin_corr_matrix, 0.75).astype('float32')
-    np.where(corr_matrix_adjclose <= quantile, 0, corr_matrix_adjclose)
-
-
+    corr_matrix_adjclose = np.where(corr_matrix_adjclose <= quantile, 0, corr_matrix_adjclose)
 
     # np.savetxt("test2CorrMatrix.csv", corr_matrix_adjclose, delimiter=",")
     # correlation method: pearson, kendall, spearman and callable
@@ -49,6 +53,39 @@ def network_monitor_function():
     '''numpy.core._exceptions.MemoryError: Unable to allocate 197. MiB for an array with shape (1, 25786084) and data type float64'''
 
     del stock_object_dictionary
+
+    corr_matrix_adjclose_df = pd.DataFrame(corr_matrix_adjclose, index=[i for i in ticker_list], columns=[i for i in ticker_list], dtype=np.float32)
+    corr_matrix_adjclose_df = corr_matrix_adjclose_df.where(np.triu(np.ones(corr_matrix_adjclose_df.shape), 1).astype(np.bool))
+    corr_matrix_adjclose_df = corr_matrix_adjclose_df.stack().reset_index()
+    corr_matrix_adjclose_df.columns = ['Source', 'Target', 'Weight']
+    corr_matrix_adjclose_df = corr_matrix_adjclose_df[corr_matrix_adjclose_df['Weight'] != 0]
+    corr_matrix_adjclose_df.reset_index(drop=True, inplace=True)
+    zipper = list(zip(corr_matrix_adjclose_df['Source'], corr_matrix_adjclose_df['Target']))
+    graph = nx.Graph((x, y, {'weight': corr_matrix_adjclose_df.Weight[zipper.index((x, y))]}) for (x, y), v in
+                       Counter(zipper).items())
+
+
+
+
+
+
+
+
+    for (x, y), v in Counter(zipper).items():
+        graph.add_edge(x, y, weight=corr_matrix_adjclose_df.Weight[zipper.index((x, y))])
+
+    graph = nx.DiGraph((x, y, {'weight': corr_matrix_adjclose_df.Weight[zipper.index((x, y))]}) for (x, y), v in Counter(zipper).items())
+
+    g = nx.DiGraph((x, y, {'weight': df.Value[Ed.index((x, y))]}) for (x, y), v in Counter(Ed).items())
+
+
+
+
+
+    df = pd.DataFrame(np.where(np.triu(np.ones(corr_matrix_adjclose.shape), 1).astype(np.bool)))
+    df2 = pd.DataFrame(df, columns=["A", "B"])
+
+    G = nx.from_numpy_matrix(corr_matrix_adjclose)
 
     quantile = corr_matrix_adjclose.melt().value.quantile(0.75).astype('float16')
 
