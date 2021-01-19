@@ -45,6 +45,7 @@ def network_monitor_function():
     upper_trin_corr_matrix = np.where(upper_trin_corr_matrix <= 0.000001, np.nan, upper_trin_corr_matrix) # mettere intervallo intorno a zero se si vogliono tenere le incorrelate
     quantile = np.nanquantile(upper_trin_corr_matrix, 0.75).astype('float32')
     corr_matrix_adjclose = np.where(corr_matrix_adjclose <= quantile, 0, corr_matrix_adjclose)
+    corr_matrix_adjclose = np.triu(corr_matrix_adjclose, 1).astype('float32') # keeping just the upper triangle matrix
 
     # np.savetxt("test2CorrMatrix.csv", corr_matrix_adjclose, delimiter=",")
     # correlation method: pearson, kendall, spearman and callable
