@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[PICKLE][NOT-FOUND][20210114]">
+      <change afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/FIT.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/GFNSL.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/HSBC-PA.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trading_tool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trading_tool.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/network_monitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/network_monitor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/daily_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/daily_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/AFSI-PA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/AFSI-PA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/AGM-PA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/AGM-PA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/AIMT.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/AIMT.pkl" afterDir="false" />
@@ -102,8 +103,6 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/YIN.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/YIN.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/YUMA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/YUMA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/not_found_records/ZOES.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/not_found_records/ZOES.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/read_pickle_df.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/read_pickle_df.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/A.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/A.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AA.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AA.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AACG.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/AACG.pkl" afterDir="false" />
@@ -5211,7 +5210,6 @@
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZYME.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZYME.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZYNE.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZYNE.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZYXI.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/stock_dataframes/ZYXI.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prova.py" beforeDir="false" afterPath="$PROJECT_DIR$/prova.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -5253,7 +5251,7 @@
       <recent name="C:\Users\Mirko\Desktop\Corsi\financial_markets_academy\pickle_obj" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.network_monitor">
+  <component name="RunManager" selected="Python.daily_app">
     <configuration name="daily_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -5296,7 +5294,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="period_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="network_prova" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -5304,11 +5302,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/applications" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/applications/period_app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis/network_prova.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -5361,11 +5359,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.network_monitor" />
-        <item itemvalue="Python.prova_pickle" />
-        <item itemvalue="Python.prova" />
         <item itemvalue="Python.daily_app" />
-        <item itemvalue="Python.period_app" />
+        <item itemvalue="Python.network_prova" />
+        <item itemvalue="Python.prova_pickle" />
+        <item itemvalue="Python.network_monitor" />
+        <item itemvalue="Python.prova" />
       </list>
     </recent_temporary>
   </component>
@@ -5736,68 +5734,6 @@
     <MESSAGE value="[PICKLE][NOT-FOUND][20210114]" />
     <option name="LAST_COMMIT_MESSAGE" value="[PICKLE][NOT-FOUND][20210114]" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="117" y="272" key="#xdebugger.XInspectDialog" timestamp="1610707900457">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="117" y="272" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610707900457" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1610555808047">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610555808047" />
-    <state x="784" y="439" key="Github.CreateGistDialog" timestamp="1610555729889">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="784" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610555729889" />
-    <state width="1899" height="480" key="GridCell.Tab.0.bottom" timestamp="1610990289026">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="480" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289026" />
-    <state width="1899" height="480" key="GridCell.Tab.0.center" timestamp="1610990289026">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="480" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289026" />
-    <state width="1899" height="480" key="GridCell.Tab.0.left" timestamp="1610990289026">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="480" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289026" />
-    <state width="1899" height="480" key="GridCell.Tab.0.right" timestamp="1610990289026">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="480" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289026" />
-    <state width="1899" height="480" key="GridCell.Tab.1.bottom" timestamp="1610990289495">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="480" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289495" />
-    <state width="1899" height="480" key="GridCell.Tab.1.center" timestamp="1610990289495">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="480" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289495" />
-    <state width="1899" height="480" key="GridCell.Tab.1.left" timestamp="1610990289495">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="480" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289495" />
-    <state width="1899" height="480" key="GridCell.Tab.1.right" timestamp="1610990289495">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="480" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610990289495" />
-    <state x="269" y="194" key="SettingsEditor" timestamp="1610975666108">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="269" y="194" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610975666108" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610725516021">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610725516021" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1610986939686">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1610986939686" />
-    <state x="749" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1610642195698">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="749" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610642195698" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -5843,13 +5779,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/analysis/network_monitor.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="72" />
+          <line>41</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/analysis/network_monitor.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="74" />
+          <line>63</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysis/network_prova.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/applications/daily_app.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/applications/daily_app.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
