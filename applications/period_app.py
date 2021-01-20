@@ -44,8 +44,11 @@ def main():
             stock_object_dictionary_pickle['{0}'.format(ticker)].pickle = stock_object_dictionary[
                 '{0}'.format(ticker)].history
 
-        stock_object_dictionary_pickle['{0}'.format(ticker)].pickle = stock_object_dictionary_pickle[
-            '{0}'.format(ticker)].pickle.groupby(level=0).last()
+        try:
+            stock_object_dictionary_pickle['{0}'.format(ticker)].pickle = stock_object_dictionary_pickle[
+                '{0}'.format(ticker)].pickle.groupby(level=0).last()
+        except:
+            print(ticker)
 
     write_to_pickle(stock_object_dictionary_pickle, ticker_list_object)
     print('the end')
