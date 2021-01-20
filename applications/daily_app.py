@@ -9,7 +9,7 @@ from pickle_obj.write_pickle_df import write_to_pickle, write_not_found_from_pic
 
 def main():
     # Setting of Start date and End date of our retrieving period
-    start_date = date.today() - timedelta(3)
+    start_date = date.today() - timedelta(2)
     end_date = date.today() + timedelta(1)
 
     try:
@@ -44,8 +44,11 @@ def main():
             stock_object_dictionary_pickle['{0}'.format(ticker)].pickle = stock_object_dictionary[
                 '{0}'.format(ticker)].history
 
-        stock_object_dictionary_pickle['{0}'.format(ticker)].pickle = stock_object_dictionary_pickle[
-            '{0}'.format(ticker)].pickle.groupby(level=0).last()
+        try:
+            stock_object_dictionary_pickle['{0}'.format(ticker)].pickle = stock_object_dictionary_pickle[
+                '{0}'.format(ticker)].pickle.groupby(level=0).last()
+        except:
+            print(ticker)
 
     write_to_pickle(stock_object_dictionary_pickle, ticker_list_object)
     print('the end')
