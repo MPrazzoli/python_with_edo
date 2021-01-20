@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[LINE 47 TRY][DAILY-APP][PRINT][ERROR-TICKER]">
-      <change beforePath="$PROJECT_DIR$/analysis/network_monitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/network_monitor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/period_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/period_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" afterDir="false" />
-    </list>
+    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,34 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610555254919</updated>
-    </task>
-    <task id="LOCAL-00001" summary="primo commit">
-      <created>1610555863734</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1610555863734</updated>
-    </task>
-    <task id="LOCAL-00002" summary="print">
-      <created>1610556004552</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1610556004552</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ambiente">
-      <created>1610556175580</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1610556175580</updated>
-    </task>
-    <task id="LOCAL-00004" summary="ambiente">
-      <created>1610556183652</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1610556183652</updated>
     </task>
     <task id="LOCAL-00005" summary="ambiente">
       <created>1610556191180</created>
@@ -535,7 +503,35 @@
       <option name="project" value="LOCAL" />
       <updated>1611160921959</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="[LINE 47 TRY][PERIOD-APP][PRINT][ERROR-TICKER]">
+      <created>1611160972393</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1611160972394</updated>
+    </task>
+    <task id="LOCAL-00051" summary="[PROVA-PICKLE][RENAME-VARIABLES]">
+      <created>1611161035170</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1611161035170</updated>
+    </task>
+    <task id="LOCAL-00052" summary="[ACADEMY]">
+      <created>1611161054105</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1611161054105</updated>
+    </task>
+    <task id="LOCAL-00053" summary="[NETWORK][MONITOR][FEW-CHANGE]">
+      <created>1611161186617</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1611161186617</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,10 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[FILE-XLSX-TICKERS]" />
-    <MESSAGE value="[PERIOD-APP]" />
-    <MESSAGE value="[READ-PICKLE][NEW-DIRECTORY]" />
-    <MESSAGE value="[DAILY-APP][NEW-DIRECTORY]" />
     <MESSAGE value="[PERIOD-APP][NEW-DIRECTORY]" />
     <MESSAGE value="[STOCK-CLASS][DATAFRAME]" />
     <MESSAGE value="[FETCH-TICKERS-FROM-DEGIRO]" />
@@ -576,7 +568,11 @@
     <MESSAGE value="[OTHER]" />
     <MESSAGE value="[20210119][US-STOCK]" />
     <MESSAGE value="[LINE 47 TRY][DAILY-APP][PRINT][ERROR-TICKER]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[LINE 47 TRY][DAILY-APP][PRINT][ERROR-TICKER]" />
+    <MESSAGE value="[LINE 47 TRY][PERIOD-APP][PRINT][ERROR-TICKER]" />
+    <MESSAGE value="[PROVA-PICKLE][RENAME-VARIABLES]" />
+    <MESSAGE value="[ACADEMY]" />
+    <MESSAGE value="[NETWORK][MONITOR][FEW-CHANGE]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[NETWORK][MONITOR][FEW-CHANGE]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611049464810">
@@ -587,10 +583,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="117" y="272" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610707900457" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1611160961508">
+    <state x="605" y="105" key="CommitChangelistDialog2" timestamp="1611161186622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611160961508" />
+    <state x="605" y="105" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611161186622" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1611161370284">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611161370284" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1610555808047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -635,10 +635,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="269" y="194" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611160711009" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611160870992">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611161243181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611160870992" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611161243181" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1610986939686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -647,10 +647,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="749" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611049503464" />
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611048460364">
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611161194131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611048460364" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611161194131" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -667,12 +667,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/analysis/network_monitor.py</url>
-          <line>65</line>
+          <line>64</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/analysis/network_monitor.py</url>
-          <line>164</line>
+          <line>163</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
