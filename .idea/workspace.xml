@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="" />
+    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[NEW][NOT-FOUND]">
+      <change beforePath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,27 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610555254919</updated>
-    </task>
-    <task id="LOCAL-00005" summary="ambiente">
-      <created>1610556191180</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1610556191180</updated>
-    </task>
-    <task id="LOCAL-00006" summary="ambiente">
-      <created>1610631489394</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1610631489394</updated>
-    </task>
-    <task id="LOCAL-00007" summary="[ACADEMY] (Network Theory, Momentum and Quantitative Equity Portfolio Management)">
-      <created>1610632791361</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1610632791361</updated>
     </task>
     <task id="LOCAL-00008" summary="[OTHER]">
       <created>1610632816861</created>
@@ -531,7 +512,28 @@
       <option name="project" value="LOCAL" />
       <updated>1611161186617</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="[NOT-FOUND]">
+      <created>1611161391724</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1611161391724</updated>
+    </task>
+    <task id="LOCAL-00055" summary="[WORKSPACE]">
+      <created>1611161983734</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1611161983734</updated>
+    </task>
+    <task id="LOCAL-00056" summary="[NEW][NOT-FOUND]">
+      <created>1611162088438</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1611162088438</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,9 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PERIOD-APP][NEW-DIRECTORY]" />
-    <MESSAGE value="[STOCK-CLASS][DATAFRAME]" />
-    <MESSAGE value="[FETCH-TICKERS-FROM-DEGIRO]" />
     <MESSAGE value="[NETWORK-MONITOR]" />
     <MESSAGE value="[STOCK-CLASS][DATAFRAME]&#10;delete import of a module which is not use anymore" />
     <MESSAGE value="[PIPENV]&#10;installation of xlrd to read xlsx files" />
@@ -572,7 +571,11 @@
     <MESSAGE value="[PROVA-PICKLE][RENAME-VARIABLES]" />
     <MESSAGE value="[ACADEMY]" />
     <MESSAGE value="[NETWORK][MONITOR][FEW-CHANGE]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[NETWORK][MONITOR][FEW-CHANGE]" />
+    <MESSAGE value="[NOT-FOUND]" />
+    <MESSAGE value="[WORKSPACE]" />
+    <MESSAGE value="[NEW][NOT-FOUND]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[NEW][NOT-FOUND]" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611049464810">
@@ -599,22 +602,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610555729889" />
-    <state width="1899" height="266" key="GridCell.Tab.0.bottom" timestamp="1611160712791">
+    <state width="949" height="266" key="GridCell.Tab.0.bottom" timestamp="1611162047314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611160712791" />
-    <state width="1899" height="266" key="GridCell.Tab.0.center" timestamp="1611160712791">
+    <state width="949" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611162047314" />
+    <state width="949" height="266" key="GridCell.Tab.0.center" timestamp="1611162047314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611160712791" />
-    <state width="1899" height="266" key="GridCell.Tab.0.left" timestamp="1611160712791">
+    <state width="949" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611162047314" />
+    <state width="949" height="266" key="GridCell.Tab.0.left" timestamp="1611162047314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611160712791" />
-    <state width="1899" height="266" key="GridCell.Tab.0.right" timestamp="1611160712791">
+    <state width="949" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611162047314" />
+    <state width="949" height="266" key="GridCell.Tab.0.right" timestamp="1611162047314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611160712791" />
+    <state width="949" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611162047314" />
     <state width="1899" height="369" key="GridCell.Tab.1.bottom" timestamp="1611158676375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -631,14 +634,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611158676375" />
+    <state x="591" y="281" width="737" height="670" key="MultipleFileMergeDialog" timestamp="1611161841219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="591" y="281" width="737" height="670" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611161841219" />
     <state x="269" y="194" key="SettingsEditor" timestamp="1611160711009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="269" y="194" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611160711009" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611161243181">
+    <state x="552" y="252" width="816" height="602" key="Vcs.Push.Dialog.v2" timestamp="1611162007232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611161243181" />
+    <state x="552" y="252" width="816" height="602" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611162007232" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1610986939686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -647,10 +654,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="749" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611049503464" />
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611161194131">
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611161412309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611161194131" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611161412309" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
