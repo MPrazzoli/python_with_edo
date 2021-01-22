@@ -19,14 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[20210121]">
+    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[NM-PG][NAN]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,7 +72,7 @@
       <recent name="C:\Users\Mirko\Desktop\Corsi\financial_markets_academy\pickle_obj" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fetch_tickers_isin_from_degiro">
+  <component name="RunManager" selected="Python.prova_pickle">
     <configuration name="daily_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,9 +180,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prova_pickle" />
         <item itemvalue="Python.fetch_tickers_isin_from_degiro" />
         <item itemvalue="Python.daily_app" />
-        <item itemvalue="Python.prova_pickle" />
         <item itemvalue="Python.net" />
         <item itemvalue="Python.network_monitor" />
       </list>
@@ -190,20 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610555254919</updated>
-    </task>
-    <task id="LOCAL-00014" summary="[API-FUNCTION]">
-      <created>1610632914836</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1610632914836</updated>
-    </task>
-    <task id="LOCAL-00015" summary="[FILE-XLSX-TICKERS]">
-      <created>1610632937293</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1610632937293</updated>
     </task>
     <task id="LOCAL-00016" summary="[READ-PICKLE][NEW-DIRECTORY]">
       <created>1610633053654</created>
@@ -534,7 +526,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611325509727</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="[WORKSPACE]">
+      <created>1611326152242</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1611326152242</updated>
+    </task>
+    <task id="LOCAL-00064" summary="[NM-PG][NAN]">
+      <created>1611326789560</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1611326789560</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,7 +556,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[STOCK-CLASS][DEPENDENCIES-REMOVE]&#10;removing of:&#10;import yfinance as yf&#10;from datetime import date, timedelta" />
     <MESSAGE value="[PICKLE-FILES]" />
     <MESSAGE value="[CORRELATION-PICKLE]" />
     <MESSAGE value="[DELETE][FILES]" />
@@ -573,9 +578,10 @@
     <MESSAGE value="[MISC]" />
     <MESSAGE value="[IDEA]" />
     <MESSAGE value="[20210120]" />
-    <MESSAGE value="[WORKSPACE]" />
     <MESSAGE value="[20210121]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[20210121]" />
+    <MESSAGE value="[WORKSPACE]" />
+    <MESSAGE value="[NM-PG][NAN]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[NM-PG][NAN]" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -603,38 +609,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610555729889" />
-    <state width="952" height="298" key="GridCell.Tab.0.bottom" timestamp="1611325303852">
+    <state width="997" height="298" key="GridCell.Tab.0.bottom" timestamp="1611329609270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="952" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611325303852" />
-    <state width="952" height="298" key="GridCell.Tab.0.center" timestamp="1611325303852">
+    <state width="997" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611329609270" />
+    <state width="997" height="298" key="GridCell.Tab.0.center" timestamp="1611329609270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="952" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611325303852" />
-    <state width="952" height="298" key="GridCell.Tab.0.left" timestamp="1611325303852">
+    <state width="997" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611329609270" />
+    <state width="997" height="298" key="GridCell.Tab.0.left" timestamp="1611329609270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="952" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611325303852" />
-    <state width="952" height="298" key="GridCell.Tab.0.right" timestamp="1611325303852">
+    <state width="997" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611329609270" />
+    <state width="997" height="298" key="GridCell.Tab.0.right" timestamp="1611329609270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="952" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611325303852" />
-    <state width="1899" height="369" key="GridCell.Tab.1.bottom" timestamp="1611162958902">
+    <state width="997" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611329609270" />
+    <state width="949" height="245" key="GridCell.Tab.1.bottom" timestamp="1611326946207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611162958902" />
-    <state width="1899" height="369" key="GridCell.Tab.1.center" timestamp="1611162958902">
+    <state width="949" height="245" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611326946207" />
+    <state width="949" height="245" key="GridCell.Tab.1.center" timestamp="1611326946207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611162958902" />
-    <state width="1899" height="369" key="GridCell.Tab.1.left" timestamp="1611162958902">
+    <state width="949" height="245" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611326946207" />
+    <state width="949" height="245" key="GridCell.Tab.1.left" timestamp="1611326946207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611162958902" />
-    <state width="1899" height="369" key="GridCell.Tab.1.right" timestamp="1611162958902">
+    <state width="949" height="245" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611326946207" />
+    <state width="949" height="245" key="GridCell.Tab.1.right" timestamp="1611326946207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611162958902" />
+    <state width="949" height="245" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611326946207" />
     <state x="591" y="281" width="737" height="670" key="MultipleFileMergeDialog" timestamp="1611161841219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -643,10 +649,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="269" y="194" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611160711009" />
-    <state x="552" y="252" width="816" height="602" key="Vcs.Push.Dialog.v2" timestamp="1611222630980">
+    <state x="552" y="252" width="816" height="602" key="Vcs.Push.Dialog.v2" timestamp="1611326129918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" width="816" height="602" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611222630980" />
+    <state x="552" y="252" width="816" height="602" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611326129918" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1610986939686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -687,6 +693,16 @@
           <url>file://$PROJECT_DIR$/net.py</url>
           <line>6</line>
           <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pickle_obj/prova_pickle.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
