@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[20210120]">
+    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[20210121]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <recent name="C:\Users\Mirko\Desktop\Corsi\financial_markets_academy\pickle_obj" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prova_pickle">
+  <component name="RunManager" selected="Python.fetch_tickers_isin_from_degiro">
     <configuration name="daily_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +80,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/applications/daily_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fetch_tickers_isin_from_degiro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="trading_tool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,27 +151,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prova" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="trading_tool" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prova.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="prova_pickle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.prova_pickle" />
+        <item itemvalue="Python.fetch_tickers_isin_from_degiro" />
         <item itemvalue="Python.daily_app" />
+        <item itemvalue="Python.prova_pickle" />
         <item itemvalue="Python.net" />
         <item itemvalue="Python.network_monitor" />
-        <item itemvalue="Python.prova" />
       </list>
     </recent_temporary>
   </component>
@@ -189,20 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610555254919</updated>
-    </task>
-    <task id="LOCAL-00012" summary="[READ-PICKLE]">
-      <created>1610632882234</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1610632882234</updated>
-    </task>
-    <task id="LOCAL-00013" summary="[DAILY-APP]">
-      <created>1610632899066</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1610632899066</updated>
     </task>
     <task id="LOCAL-00014" summary="[API-FUNCTION]">
       <created>1610632914836</created>
@@ -533,7 +520,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611220306177</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="[WORKSPACE]">
+      <created>1611222629590</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1611222629590</updated>
+    </task>
+    <task id="LOCAL-00062" summary="[20210121]">
+      <created>1611325509726</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1611325509727</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +550,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PIPENV][DEPENDENCIES]&#10;installation of openpyxl to read xlsx files" />
     <MESSAGE value="[STOCK-CLASS][DEPENDENCIES-REMOVE]&#10;removing of:&#10;import yfinance as yf&#10;from datetime import date, timedelta" />
     <MESSAGE value="[PICKLE-FILES]" />
     <MESSAGE value="[CORRELATION-PICKLE]" />
@@ -572,9 +572,10 @@
     <MESSAGE value="[NEW][NOT-FOUND]" />
     <MESSAGE value="[MISC]" />
     <MESSAGE value="[IDEA]" />
-    <MESSAGE value="[WORKSPACE]" />
     <MESSAGE value="[20210120]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[20210120]" />
+    <MESSAGE value="[WORKSPACE]" />
+    <MESSAGE value="[20210121]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[20210121]" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -602,22 +603,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610555729889" />
-    <state width="949" height="262" key="GridCell.Tab.0.bottom" timestamp="1611220240947">
+    <state width="952" height="298" key="GridCell.Tab.0.bottom" timestamp="1611325303852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611220240947" />
-    <state width="949" height="262" key="GridCell.Tab.0.center" timestamp="1611220240947">
+    <state width="952" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611325303852" />
+    <state width="952" height="298" key="GridCell.Tab.0.center" timestamp="1611325303852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611220240947" />
-    <state width="949" height="262" key="GridCell.Tab.0.left" timestamp="1611220240947">
+    <state width="952" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611325303852" />
+    <state width="952" height="298" key="GridCell.Tab.0.left" timestamp="1611325303852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611220240947" />
-    <state width="949" height="262" key="GridCell.Tab.0.right" timestamp="1611220240947">
+    <state width="952" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611325303852" />
+    <state width="952" height="298" key="GridCell.Tab.0.right" timestamp="1611325303852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611220240947" />
+    <state width="952" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611325303852" />
     <state width="1899" height="369" key="GridCell.Tab.1.bottom" timestamp="1611162958902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -642,10 +643,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="269" y="194" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611160711009" />
-    <state x="552" y="252" width="816" height="602" key="Vcs.Push.Dialog.v2" timestamp="1611162168034">
+    <state x="552" y="252" width="816" height="602" key="Vcs.Push.Dialog.v2" timestamp="1611222630980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" width="816" height="602" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611162168034" />
+    <state x="552" y="252" width="816" height="602" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611222630980" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1610986939686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -654,10 +655,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="749" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611049503464" />
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611218200482">
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611323187499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611218200482" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611323187499" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
