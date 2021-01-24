@@ -1,3 +1,4 @@
 NYSE: 676
 NASDAQ: 663
 AMEX: 650
+ARCA: 1004 # just three stocks
