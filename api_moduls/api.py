@@ -48,7 +48,8 @@ def api_function(start, end, not_found_tickers, daily_app):
 
     ticker_python.drop(not_found_tickers, inplace=True)
     ticker_list_object = StockListClass(ticker_list=list(ticker_python.index),
-                                        isin_list=list(ticker_python.values[:, 0]))
+                                        isin_list=list(ticker_python.values[:, 0]),
+                                        exchangeId_list=list(ticker_python.values[:, 1]))
 
     # Retrieve the DataFrame which contains all American stocks listed on Investpy package excel file.
     # This step it is made because we begin to retrieve stock's data from Yahoo Finance API,
@@ -70,8 +71,7 @@ def api_function(start, end, not_found_tickers, daily_app):
 
     # Definition of a dictionary to store stock as StockClass instances and for each stock get attribute
     # (take a look at stock_dataframe_class.py for more information)
-    stock_object_dictionary = {'{0}'.format(ticker): StockClass(ticker=ticker, isin=ticker_list_object.isin_list[i]) for
-                               i, ticker in enumerate(ticker_list_object.ticker_list)}
+    stock_object_dictionary = {'{0}'.format(ticker): StockClass(ticker=ticker, isin=ticker_list_object.isin_list[i], exchangeId=ticker_list_object.exchangeId_list[i]) for i, ticker in enumerate(ticker_list_object.ticker_list)}
 
     # Definition of our QuantLib market
     market = 'United States'

@@ -6,9 +6,10 @@ from QuantLib import *
 class StockClass(object):
 
     # Initialization of the StockClass object with the ticker symbol which is use to construct a yf.Ticker object
-    def __init__(self, ticker, isin=None):
+    def __init__(self, ticker, isin=None, exchangeId=None):
         self.name = ticker
         self.isin = isin
+        self.exchangeId = exchangeId
         # self.history is the method of the SotckClass object to store data in DataFrame format
         self.history = pd.DataFrame
         self.investing = pd.DataFrame
@@ -20,9 +21,10 @@ class StockClass(object):
 class StockListClass(object):
 
     # Initialization of the StockListClass object with ticker symbol and isin code of all stocks we are interested in
-    def __init__(self, ticker_list, isin_list=None):
+    def __init__(self, ticker_list, isin_list=None, exchangeId_list=None):
         self.ticker_list = ticker_list
         self.isin_list = isin_list
+        self.exchangeId_list = exchangeId_list
 
 
 class ImportantDatesClass(object):
