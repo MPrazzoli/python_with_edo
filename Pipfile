@@ -15,6 +15,7 @@ beautifulsoup4 = "*"
 matplotlib = "*"
 psutil = "*"
 networkx = "*"
+yahoofinancials = "*"
 
 [dev-packages]
 
