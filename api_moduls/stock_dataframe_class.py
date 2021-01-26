@@ -6,10 +6,12 @@ from QuantLib import *
 class StockClass(object):
 
     # Initialization of the StockClass object with the ticker symbol which is use to construct a yf.Ticker object
-    def __init__(self, ticker, isin=None, exchangeId=None):
+    def __init__(self, ticker, isin=None, exchangeid=None, sector=None, industry=None, country=None, pe=None, eps=None,
+                               insiderown=None, shsout=None, shsfloat=None, mktcap=None, income=None, sales=None,
+                               bookh=None, pb=None, roa=None, tp=None, roe=None, roi=None, employees=None, debteq=None ):
         self.name = ticker
         self.isin = isin
-        self.exchangeId = exchangeId
+        self.exchangeid = exchangeid
         # self.history is the method of the SotckClass object to store data in DataFrame format
         self.history = pd.DataFrame
         self.investing = pd.DataFrame
@@ -17,6 +19,26 @@ class StockClass(object):
         self.not_found = np.array([['date', 'ticker']])
         self.nanDiv = False
         self.nanSplit = False
+        self.sector = None
+        self.industry = industry
+        self.country = country
+        self.pe = pe
+        self.eps = eps
+        self.insiderown = insiderown
+        self.shsout = shsout
+        self.shsfloat = shsfloat
+        self.mktcap = mktcap
+        self.income = income
+        self.sales = sales
+        self.bookh = bookh
+        self.pb = pb
+        self.roa = roa
+        self.tp = tp
+        self.roe = roe
+        self.roi = roi
+        self.employees = employees
+        self.debteq = debteq
+
 
 class StockListClass(object):
 
