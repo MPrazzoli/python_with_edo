@@ -74,33 +74,33 @@ for i, ticker in enumerate(ticker_python.index):
     try:
         ticker_python.at[ticker_python.index[i], 'Sector'] = stock.TickerFundament()['Sector']
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'Sector'] = ''
 
     try:
         ticker_python.at[ticker_python.index[i], 'Industry'] = stock.TickerFundament()['Industry']
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'Industry'] = ''
 
     try:
         ticker_python.at[ticker_python.index[i], 'Country'] = stock.TickerFundament()['Country']
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'Country'] = ''
 
     try:
         ticker_python.at[ticker_python.index[i], 'P/E'] = float(stock.TickerFundament()['P/E'])
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'P/E'] = ''
 
     try:
         ticker_python.at[ticker_python.index[i], 'EPS (ttm)'] = float(stock.TickerFundament()['EPS (ttm)'])
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'EPS (ttm)'] = ''
 
     try:
         ticker_python.at[ticker_python.index[i], 'Insider Own'] = float(
             stock.TickerFundament()['Insider Own'][:-1]) / 100
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'Insider Own'] = ''
 
     ticker_python.at[ticker_python.index[i], 'Shs Outstand'] = stock.TickerFundament()['Shs Outstand']
     if ticker_python.at[ticker_python.index[i], 'Shs Outstand'][-1] == 'M':
@@ -175,42 +175,42 @@ for i, ticker in enumerate(ticker_python.index):
     try:
         ticker_python.at[ticker_python.index[i], 'Book/sh'] = float(stock.TickerFundament()['Book/sh'])
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'Book/sh'] = ''
 
     try:
         ticker_python.at[ticker_python.index[i], 'P/B'] = float(stock.TickerFundament()['P/B'])
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'P/B'] = ''
 
     try:
         ticker_python.at[ticker_python.index[i], 'ROA'] = float(stock.TickerFundament()['ROA'][:-1]) / 100
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'ROA'] = ''
 
     try:
         ticker_python.at[ticker_python.index[i], 'Target Price'] = float(stock.TickerFundament()['Target Price'])
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'Target Price'] = ''
 
     try:
         ticker_python.at[ticker_python.index[i], 'ROE'] = float(stock.TickerFundament()['ROE'][:-1]) / 100
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'ROE'] = ''
 
     try:
         ticker_python.at[ticker_python.index[i], 'ROI'] = float(stock.TickerFundament()['ROI'][:-1]) / 100
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'ROI'] = ''
 
     try:
         ticker_python.at[ticker_python.index[i], 'Employees'] = int(stock.TickerFundament()['Employees'])
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'Employees'] = ''
 
     try:
         ticker_python.at[ticker_python.index[i], 'Debt/Eq'] = float(stock.TickerFundament()['Debt/Eq'])
     except:
-        pass
+        ticker_python.at[ticker_python.index[i], 'Debt/Eq'] = ''
 
     if (j % 50) == 0: print(j, "--- %s seconds ---" % (time.time() - start_time))
     j += 1
