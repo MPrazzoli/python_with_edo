@@ -3,9 +3,9 @@ import requests
 import json
 import pandas as pd
 
+
 '''
 Here you have just to set your session id you find on your browser
-
 '''
 
 url = 'https://trader.degiro.nl/product_search/secure/v5/stocks?isInUSGreenList=false&stockCountryId={v0}&offset={v1}&limit={v2}&requireTotal=true&sortColumns=name&sortTypes=asc&intAccount=115000116&sessionId={v3}'
