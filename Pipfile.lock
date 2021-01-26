@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c857c0424d7b253cd11169e432dd4597bd1201be2727eb226e1da6f85f19f891"
+            "sha256": "ad58813e43524df4fb072e6a68edd91000b3ffbd2abbba275551fedcaf0c8e57"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -24,6 +24,12 @@
             ],
             "index": "pypi",
             "version": "==4.9.3"
+        },
+        "bs4": {
+            "hashes": [
+                "sha256:36ecea1fd7cc5c0c6e4a1ff075df26d50da647b75376626cc186e2212886dd3a"
+            ],
+            "version": "==0.0.1"
         },
         "certifi": {
             "hashes": [
@@ -67,6 +73,14 @@
                 "sha256:614d9722d572f6246302c4491846d2c393c199cfa4edc9af593437691683335b"
             ],
             "version": "==1.0.1"
+        },
+        "finvizfinance": {
+            "hashes": [
+                "sha256:2947e195cec447586e0e1bba2728fb4c3a91bdc48866d786ef98c46a0fc5bd0f",
+                "sha256:38eeb95c811899e82070dd98d96813c57364e57e2679250e21a72a5e597c9b81"
+            ],
+            "index": "pypi",
+            "version": "==0.7.4"
         },
         "idna": {
             "hashes": [
