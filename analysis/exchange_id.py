@@ -31,7 +31,7 @@ def exchangeId_dict_StockClass(lag, id=None):
     for element in stock_object_dictionary.copy():
         if id is None:
             try:
-                stock_object_dictionary['{0}'.format(element)].exchangeId =\
+                stock_object_dictionary['{0}'.format(element)].exchangeid =\
                 ticker_python.loc[element]['exchange_id']
                 ticker_list.append(element)
 
@@ -41,7 +41,7 @@ def exchangeId_dict_StockClass(lag, id=None):
         else:
             try:
                 if ticker_python.loc[element]['exchange_id']==id:
-                    stock_object_dictionary['{0}'.format(element)].exchangeId = \
+                    stock_object_dictionary['{0}'.format(element)].exchangeid = \
                         ticker_python.loc[element]['exchange_id']
                     ticker_list.append(element)
                 else:
