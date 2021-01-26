@@ -58,8 +58,8 @@ def read_from_pickle(ticker_list_object):
 
     return stock_object_dictionary_read_from_pickle
 
-
-def read_data_for_analysis_linearInterp_for_nan(max_not_found_record, start, end): # other interpolation types https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.interpolate.html
+# other interpolation types https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.interpolate.html
+def read_data_for_analysis_linearInterp_for_nan(max_not_found_record, start, end):
     i = time.time()
     available_tickers = read_available_ticker_from_pickle()
     not_found_tickers = read_not_found_from_pickle(max_not_found_record=max_not_found_record)
