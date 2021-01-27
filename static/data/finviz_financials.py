@@ -216,4 +216,4 @@ for i, ticker in enumerate(ticker_python.index):
     j += 1
 
 ticker_python.reset_index(level=0, inplace=True)
-ticker_python.to_excel(r'ticker_isin_file.xlsx', sheet_name='AmericanFinancials', index=False)
+ticker_python.to_excel(r'ticker_isin_file_financials.xlsx', sheet_name='AmericanFinancials', index=False)
