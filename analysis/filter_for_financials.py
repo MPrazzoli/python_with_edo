@@ -11,7 +11,7 @@ from pickle_obj.read_pickle_df import read_data_for_analysis_linearInterp_for_na
 
 def financials_dict_StockClass(lag, exchangeid=None, sector=None, industry=None, country=None, pe=None, eps=None,
                                insiderown=None, shsout=None, shsfloat=None, mktcap=None, income=None, sales=None,
-                               bookh=None, pb=None, roa=None, tp=None, roe=None, roi=None, employees=None, debteq=None):
+                               booksh=None, pb=None, roa=None, tp=None, roe=None, roi=None, employees=None, debteq=None):
 
     # Set of the project path to find also data path where the tickers list is stored in your computer
     project_root = os.path.dirname(os.path.dirname(__file__))
@@ -28,7 +28,7 @@ def financials_dict_StockClass(lag, exchangeid=None, sector=None, industry=None,
     stock_object_dictionary = read_data_for_analysis_linearInterp_for_nan(max_not_found_record=5, start=start_date,
                                                                           end=end_date)
 
-    ticker_python2 = pd.read_excel(data_path + '/ticker_isin_file.xlsx', sheet_name='AmericanFinancials')
+    ticker_python2 = pd.read_excel(data_path + '/ticker_isin_file_financials.xlsx', sheet_name='AmericanFinancials')
     final_df = pd.concat([ticker_python2['ticker'], ticker_python2['isin']], axis=1, keys=['ticker', 'isin'])
 
     if exchangeid is not None:
@@ -67,7 +67,7 @@ def financials_dict_StockClass(lag, exchangeid=None, sector=None, industry=None,
     if sales is not None:
         final_df['sales'] = ticker_python2['Sales']
 
-    if bookh is not None:
+    if booksh is not None:
         final_df['bookh'] = ticker_python2['Book/sh']
 
     if pb is not None:
@@ -95,7 +95,9 @@ def financials_dict_StockClass(lag, exchangeid=None, sector=None, industry=None,
 
     headers = list(final_df.columns)
     headers.remove('isin')
-    headers.remove('exchangeid')
+
+    if exchangeid is not None:
+        headers.remove('exchangeid')
 
     final_df.dropna(subset=headers, how='all', inplace=True)
 
@@ -123,8 +125,8 @@ def financials_dict_StockClass(lag, exchangeid=None, sector=None, industry=None,
 
 
 def main():
-    stock_object_dictionary, ticker_list = financials_dict_StockClass(180, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-                                                                      1, 1, 1, 1, 1)
+    stock_object_dictionary, ticker_list = financials_dict_StockClass(lag=180, sector=1, mktcap=1, roe=1, roi=1)
+
     print(0)
 
 
