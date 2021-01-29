@@ -71,7 +71,7 @@ def api_function(start, end, not_found_tickers, daily_app):
 
     # Definition of a dictionary to store stock as StockClass instances and for each stock get attribute
     # (take a look at stock_dataframe_class.py for more information)
-    stock_object_dictionary = {'{0}'.format(ticker): StockClass(ticker=ticker, isin=ticker_list_object.isin_list[i], exchangeId=ticker_list_object.exchangeId_list[i]) for i, ticker in enumerate(ticker_list_object.ticker_list)}
+    stock_object_dictionary = {'{0}'.format(ticker): StockClass(ticker=ticker, isin=ticker_list_object.isin_list[i], exchangeid=ticker_list_object.exchangeId_list[i]) for i, ticker in enumerate(ticker_list_object.ticker_list)}
 
     # Definition of our QuantLib market
     market = 'United States'
