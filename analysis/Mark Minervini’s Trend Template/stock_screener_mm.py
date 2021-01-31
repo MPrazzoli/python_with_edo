@@ -10,37 +10,55 @@ from datetime import date, timedelta
 
 # our packages
 from pickle_obj.read_pickle_df import read_data_for_analysis_linearInterp_for_nan
-from analysis.rsi.std_rsi import std_rsi_function
+from analysis.exchange_id import exchangeId_dict_StockClass
 
-def mark_minervini_screener( lag=365, quantile_value=.7):
+def mark_minervini_screener(lag=365, quantile_value=.7, exchangeid_filter=True, exchangeid=None):
 
-    start_date = (date.today() - timedelta(lag)).strftime('%Y-%m-%d')
-    end_date = date.today().strftime('%Y-%m-%d')
-    stock_object_dictionary = read_data_for_analysis_linearInterp_for_nan(max_not_found_record=5, start=start_date,
-                                                                          end=end_date)
-    ticker_list = []
+    if not exchangeid_filter:
+        start_date = (date.today() - timedelta(lag)).strftime('%Y-%m-%d')
+        end_date = date.today().strftime('%Y-%m-%d')
+        stock_object_dictionary = read_data_for_analysis_linearInterp_for_nan(max_not_found_record=5, start=start_date,
+                                                                              end=end_date)
+        ticker_list = []
 
-    for element in stock_object_dictionary:
-        ticker_list.append(element)
+        for element in stock_object_dictionary:
+            ticker_list.append(element)
+
+    else:
+        stock_object_dictionary, ticker_list = exchangeId_dict_StockClass(lag=lag, id=exchangeid)
 
     yf.pdr_override()
 
     # Variables
     # tickers = ['A', 'AA', 'AAL', 'AACQ', 'AAIC', 'AACG']  # si.tickers_sp500()
-    # tickers = [item.replace(".", "-") for item in tickers] # Yahoo Finance uses dashes instead of dots
+    # tickers = [item.replace('.', '-') for item in tickers] # Yahoo Finance uses dashes instead of dots
 
-    index_name = '^GSPC' # S&P 500
+    # index_name_dj30 = '^ DJI'  # DOW JONES INDUSTRIAL AVERAGE
+    index_name_sp500 = '^GSPC'  # S&P 500
+    index_name_nasdaq = '^ IXIC'  # NASDAQ
+    index_name_russell2000 = '^ RUT'  # RUSSELL 2000
+
     start_date = datetime.datetime.now() - datetime.timedelta(days=lag)
     end_date = datetime.date.today()
-    exportList = pd.DataFrame(columns=['Stock', "RS_Rating", "50 Day MA", "150 Day Ma", "200 Day MA", "52 Week Low", "52 week High"])
+    exportList = pd.DataFrame(columns=['Stock', 'RS_Rating', '50 Day MA', '150 Day Ma', '200 Day MA', '52 Week Low', '52 week High'])
     returns_multiples = []
 
-    # Index Returns
-    index_df = pdr.get_data_yahoo(index_name, start_date, end_date)
-    index_df['Percent Change'] = index_df['Adj Close'].pct_change()
-    index_return = (index_df['Percent Change'] + 1).cumprod()[-1] # think to use log return instead of regular return --> segmentation for index of market or invented indeces
+    # Index Returns S&P500
+    index_sp500_df = pdr.get_data_yahoo(index_name_sp500, start_date, end_date)
+    index_sp500_df['Percent Change'] = index_sp500_df['Adj Close'].pct_change()
+    index_sp500_return = (index_sp500_df['Percent Change'] + 1).cumprod()[-1] # think to use log return instead of regular return --> segmentation for index of market or invented indeces
                                                                 # example, construct your personal indeces per mkt capitalization or other financials
+    # Index Returns NASDAQ
+    index_nasdaq_df = pdr.get_data_yahoo(index_name_nasdaq, start_date, end_date)
+    index_nasdaq_df['Percent Change'] = index_nasdaq_df['Adj Close'].pct_change()
+    index_nasdaq_return = (index_nasdaq_df['Percent Change'] + 1).cumprod()[-1]
 
+    # Index Returns RUSSELL2000
+    index_russell2000_df = pdr.get_data_yahoo(index_name_russell2000, start_date, end_date)
+    index_russell2000_df['Percent Change'] = index_russell2000_df['Adj Close'].pct_change()
+    index_russell2000_return = (index_russell2000_df['Percent Change'] + 1).cumprod()[-1]
+
+    ############################ DA FARE A CASA CON DON ##################### AGGIUNGI LOGICA PER INDICI NASDAQ CON NASDAQ AMEX CON RUSSELL E NYSE CON SP500
     # Find top 30% performing stocks (relative to the S&P 500)
     for ticker in ticker_list:
         # Download historical data as CSV for each stock (makes the process faster)
@@ -75,19 +93,19 @@ def mark_minervini_screener( lag=365, quantile_value=.7):
             df = pd.DataFrame(data=d, index=stock_object_dictionary['{0}'.format(stock)].history.index)
             sma = [50, 150, 200]
             for x in sma:
-                df["SMA_" + str(x)] = round(df['Adj Close'].rolling(window=x).mean(), 2)
+                df['SMA_' + str(x)] = round(df['Adj Close'].rolling(window=x).mean(), 2)
 
             # Storing required values
-            currentClose = df["Adj Close"][-1]
-            moving_average_50 = df["SMA_50"][-1]
-            moving_average_150 = df["SMA_150"][-1]
-            moving_average_200 = df["SMA_200"][-1]
-            low_of_52week = round(min(df["Adj Close"][-260:]), 2)
-            high_of_52week = round(max(df["Adj Close"][-260:]), 2)
+            currentClose = df['Adj Close'][-1]
+            moving_average_50 = df['SMA_50'][-1]
+            moving_average_150 = df['SMA_150'][-1]
+            moving_average_200 = df['SMA_200'][-1]
+            low_of_52week = round(min(df['Adj Close'][-260:]), 2)
+            high_of_52week = round(max(df['Adj Close'][-260:]), 2)
             RS_Rating = round(rs_df[rs_df['Ticker'] == stock].RS_Rating.tolist()[0])
 
             try:
-                moving_average_200_20 = df["SMA_200"][-20]
+                moving_average_200_20 = df['SMA_200'][-20]
             except Exception:
                 moving_average_200_20 = 0
 
@@ -119,19 +137,20 @@ def mark_minervini_screener( lag=365, quantile_value=.7):
 
             # If all conditions above are true, add stock to exportList
             if (condition_1 and condition_2 and condition_3 and condition_4 and condition_5 and condition_6 and condition_7):
-                exportList = exportList.append({'Stock': stock, "RS_Rating": RS_Rating, "50 Day MA": moving_average_50,
-                                                "150 Day Ma": moving_average_150, "200 Day MA": moving_average_200,
-                                                "52 Week Low": low_of_52week, "52 week High": high_of_52week},
+                exportList = exportList.append({'Stock': stock, 'RS_Rating': RS_Rating, '50 Day MA': moving_average_50,
+                                                '150 Day Ma': moving_average_150, '200 Day MA': moving_average_200,
+                                                '52 Week Low': low_of_52week, '52 week High': high_of_52week},
                                                ignore_index=True)
-                print(stock + " made the Minervini requirements")
+                # print(stock + ' made the Minervini requirements')
         except Exception as e:
             print(e)
-            print(f"Could not gather data on {stock}")
+            print(f'Could not gather data on {stock}')
 
     exportList = exportList.sort_values(by='RS_Rating', ascending=False)
     print('\n', exportList)
-    writer = ExcelWriter("ScreenOutput.xlsx")
-    exportList.to_excel(writer, "Sheet1")
+    file_name = 'ScreenOutput' + date.today().strftime('%Y-%m-%d') + '_lag_' + str(lag) + '_quant_' + str(quantile_value) + '.xlsx'
+    writer = ExcelWriter(file_name)
+    exportList.to_excel(writer, 'Sheet1')
     writer.save()
 
 
