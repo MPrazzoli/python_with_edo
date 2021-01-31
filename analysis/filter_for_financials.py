@@ -9,9 +9,9 @@ from yahoofinancials import YahooFinancials
 from pickle_obj.read_pickle_df import read_data_for_analysis_linearInterp_for_nan
 
 
-def financials_dict_StockClass(lag, exchangeid=None, sector=None, industry=None, country=None, pe=None, eps=None,
-                               insiderown=None, shsout=None, shsfloat=None, mktcap=None, income=None, sales=None,
-                               booksh=None, pb=None, roa=None, tp=None, roe=None, roi=None, employees=None, debteq=None):
+def financials_dict_StockClass(lag, exchangeid=False, sector=False, industry=False, country=False, pe=False, eps=False,
+                               insiderown=False, shsout=False, shsfloat=False, mktcap=False, income=False, sales=False,
+                               booksh=False, pb=False, roa=False, tp=False, roe=False, roi=False, employees=False, debteq=False):
 
     # Set of the project path to find also data path where the tickers list is stored in your computer
     project_root = os.path.dirname(os.path.dirname(__file__))
@@ -31,64 +31,64 @@ def financials_dict_StockClass(lag, exchangeid=None, sector=None, industry=None,
     ticker_python2 = pd.read_excel(data_path + '/ticker_isin_file_financials.xlsx', sheet_name='AmericanFinancials')
     final_df = pd.concat([ticker_python2['ticker'], ticker_python2['isin']], axis=1, keys=['ticker', 'isin'])
 
-    if exchangeid is not None:
+    if exchangeid:
         final_df['exchangeid'] = ticker_python2['exchange_id']
 
-    if sector is not None:
+    if sector:
         final_df['sector'] = ticker_python2['Sector']
 
-    if industry is not None:
+    if industry:
         final_df['industry'] = ticker_python2['Industry']
 
-    if country is not None:
+    if country:
         final_df['country'] = ticker_python2['Country']
 
-    if pe is not None:
+    if pe:
         final_df['pe'] = ticker_python2['P/E']
 
-    if eps is not None:
+    if eps:
         final_df['eps'] = ticker_python2['EPS (ttm)']
 
-    if insiderown is not None:
+    if insiderown:
         final_df['insiderown'] = ticker_python2['Insider Own']
 
-    if shsout is not None:
+    if shsout:
         final_df['shsout'] = ticker_python2['Shs Outstand']
 
-    if shsfloat is not None:
+    if shsfloat:
         final_df['shsfloat'] = ticker_python2['Shs Float']
 
-    if mktcap is not None:
+    if mktcap:
         final_df['mktcap'] = ticker_python2['Market Cap']
 
-    if income is not None:
+    if income:
         final_df['income'] = ticker_python2['Income']
 
-    if sales is not None:
+    if sales:
         final_df['sales'] = ticker_python2['Sales']
 
-    if booksh is not None:
+    if booksh:
         final_df['bookh'] = ticker_python2['Book/sh']
 
-    if pb is not None:
+    if pb:
         final_df['pb'] = ticker_python2['P/B']
 
-    if roa is not None:
+    if roa:
         final_df['roa'] = ticker_python2['ROA']
 
-    if tp is not None:
+    if tp:
         final_df['tp'] = ticker_python2['Target Price']
 
-    if roe is not None:
+    if roe:
         final_df['roe'] = ticker_python2['ROE']
 
-    if roi is not None:
+    if roi:
         final_df['roi'] = ticker_python2['ROI']
 
-    if employees is not None:
+    if employees:
         final_df['employees'] = ticker_python2['Employees']
 
-    if debteq is not None:
+    if debteq:
         final_df['debteq'] = ticker_python2['Debt/Eq']
 
     final_df.set_index('ticker', inplace=True)  # Setting the index of ticker_python DataFrame with Tickers columns
@@ -96,7 +96,7 @@ def financials_dict_StockClass(lag, exchangeid=None, sector=None, industry=None,
     headers = list(final_df.columns)
     headers.remove('isin')
 
-    if exchangeid is not None:
+    if exchangeid:
         headers.remove('exchangeid')
 
     final_df.dropna(subset=headers, how='all', inplace=True)
@@ -125,7 +125,7 @@ def financials_dict_StockClass(lag, exchangeid=None, sector=None, industry=None,
 
 
 def main():
-    stock_object_dictionary, ticker_list = financials_dict_StockClass(lag=180, sector=1, mktcap=1, roe=1, roi=1)
+    stock_object_dictionary, ticker_list = financials_dict_StockClass(lag=180, sector=True, mktcap=True, roe=True, roi=True)
 
     print(0)
 
