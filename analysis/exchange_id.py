@@ -95,8 +95,6 @@ def exchangeId_ticker_list(id=None):
     return ticker_list
 
 
-
-
 def main():
     ticker_list = exchangeId_ticker_list(676)
     stock_object_dictionary, ticker_list = exchangeId_dict_StockClass(180, 676)
