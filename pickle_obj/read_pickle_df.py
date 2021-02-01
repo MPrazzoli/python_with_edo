@@ -65,7 +65,12 @@ def read_data_for_analysis_linearInterp_for_nan(max_not_found_record, start, end
     not_found_tickers = read_not_found_from_pickle(max_not_found_record=max_not_found_record)
     available_tickers = pd.DataFrame(available_tickers)
     available_tickers.set_index(0, inplace=True)  # Setting the index of ticker_python DataFrame with Tickers columns
-    available_tickers.drop(not_found_tickers, inplace=True)
+
+    try:
+        available_tickers.drop(not_found_tickers, inplace=True)
+    except:
+        pass
+
     ticker_list_object = StockListClass(ticker_list=list(available_tickers.index))
     start_str = datetime.strptime(start, '%Y-%m-%d')
     end_str = datetime.strptime(end, '%Y-%m-%d')
