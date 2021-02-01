@@ -38,6 +38,7 @@ class StockClass(object):
         self.roi = roi
         self.employees = employees
         self.debteq = debteq
+        self.rsi = pd.DataFrame
 
 
 class StockListClass(object):
