@@ -35,8 +35,8 @@ def mark_minervini_screener(lag=365, quantile_value=.7, exchangeid_filter=True, 
 
     # index_name_dj30 = '^ DJI'  # DOW JONES INDUSTRIAL AVERAGE
     index_name_sp500 = '^GSPC'  # S&P 500
-    index_name_nasdaq = '^ IXIC'  # NASDAQ
-    index_name_russell2000 = '^ RUT'  # RUSSELL 2000
+    index_name_nasdaq = '^IXIC'  # NASDAQ
+    index_name_russell2000 = '^RUT'  # RUSSELL 2000
 
     start_date = datetime.datetime.now() - datetime.timedelta(days=lag)
     end_date = datetime.date.today()
@@ -58,7 +58,6 @@ def mark_minervini_screener(lag=365, quantile_value=.7, exchangeid_filter=True, 
     index_russell2000_df['Percent Change'] = index_russell2000_df['Adj Close'].pct_change()
     index_russell2000_return = (index_russell2000_df['Percent Change'] + 1).cumprod()[-1]
 
-    ############################ DA FARE A CASA CON DON ##################### AGGIUNGI LOGICA PER INDICI NASDAQ CON NASDAQ AMEX CON RUSSELL E NYSE CON SP500
     # Find top 30% performing stocks (relative to the S&P 500)
     for ticker in ticker_list:
         # Download historical data as CSV for each stock (makes the process faster)
@@ -70,6 +69,12 @@ def mark_minervini_screener(lag=365, quantile_value=.7, exchangeid_filter=True, 
         # Calculating returns relative to the market (returns multiple)
         df['Percent Change'] = df['Adj Close'].pct_change()
         stock_return = (df['Percent Change'] + 1).cumprod()[-1]
+        if stock_object_dictionary['{0}'.format(ticker)].exchangeid == 676:
+            index_return = index_sp500_return
+        elif stock_object_dictionary['{0}'.format(ticker)].exchangeid == 663:
+            index_return = index_nasdaq_return
+        elif stock_object_dictionary['{0}'.format(ticker)].exchangeid == 650:
+            index_return = index_russell2000_return
 
         returns_multiple = round((stock_return / index_return), 2)
         returns_multiples.extend([returns_multiple])
@@ -81,9 +86,6 @@ def mark_minervini_screener(lag=365, quantile_value=.7, exchangeid_filter=True, 
     rs_df = pd.DataFrame(list(zip(ticker_list, returns_multiples)), columns=['Ticker', 'Returns_multiple'])
     rs_df['RS_Rating'] = rs_df.Returns_multiple.rank(pct=True) * 100
     rs_df = rs_df[rs_df.RS_Rating >= rs_df.RS_Rating.quantile(quantile_value)]
-
-    print(rs_df)
-    print(len(rs_df))
 
     # Checking Minervini conditions of top 30% of stocks in given list
     rs_stocks = rs_df['Ticker']
@@ -133,8 +135,6 @@ def mark_minervini_screener(lag=365, quantile_value=.7, exchangeid_filter=True, 
             # condition_7 = currentClose >= (.75 * high_of_52week)
             condition_7 = currentClose <= (.75 * high_of_52week)
 
-            print(stock, ': ', condition_1, ' ', condition_2, ' ', condition_3, ' ', condition_4, ' ', condition_5, ' ', condition_6, ' ', condition_7)
-
             # If all conditions above are true, add stock to exportList
             if (condition_1 and condition_2 and condition_3 and condition_4 and condition_5 and condition_6 and condition_7):
                 exportList = exportList.append({'Stock': stock, 'RS_Rating': RS_Rating, '50 Day MA': moving_average_50,
@@ -155,7 +155,7 @@ def mark_minervini_screener(lag=365, quantile_value=.7, exchangeid_filter=True, 
 
 
 def main():
-    mark_minervini_screener()
+    mark_minervini_screener(lag=365, quantile_value=.7, exchangeid_filter=True, exchangeid=None)
 
 
 if __name__ == '__main__':
