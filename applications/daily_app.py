@@ -48,7 +48,7 @@ def main():
             stock_object_dictionary_pickle['{0}'.format(ticker)].pickle = stock_object_dictionary_pickle[
                 '{0}'.format(ticker)].pickle.groupby(level=0).last()
         except:
-            print(ticker)
+            print('check error in last price for group by pickle --', ticker)
 
     write_to_pickle(stock_object_dictionary_pickle, ticker_list_object)
     print('the end')
