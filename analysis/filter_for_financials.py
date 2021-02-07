@@ -3,6 +3,7 @@ import os
 import time
 import pandas as pd
 from datetime import date, timedelta
+import numpy as np
 from yahoofinancials import YahooFinancials
 
 # Project's imports
@@ -108,7 +109,7 @@ def financials_dict_StockClass(lag, exchangeid=False, sector=False, industry=Fal
     # To keep tracking the api process
     j = 0
 
-    ticker_list = list(final_df)
+    ticker_list = list(final_df.index)
     for element in stock_object_dictionary.copy():
         try:
             for column in final_df.columns:
@@ -124,9 +125,88 @@ def financials_dict_StockClass(lag, exchangeid=False, sector=False, industry=Fal
     return stock_object_dictionary, ticker_list
 
 
-def main():
-    stock_object_dictionary, ticker_list = financials_dict_StockClass(lag=180, sector=True, mktcap=True, roe=True, roi=True)
+def mkt_cap_filter_shsout(lag=180, shsout=True, num_of_quantiles=10):
+    stock_object_dictionary, ticker_list = financials_dict_StockClass(lag=lag, shsout=shsout)
 
+    start_time = time.time()  # To compute code execution time for each retrieve
+
+    mkt_cap_values = np.zeros(len(ticker_list))
+    index=[]
+
+    for i, element in enumerate(stock_object_dictionary.copy()):
+        try:
+            stock_object_dictionary['{0}'.format(element)].mktcap = stock_object_dictionary['{0}'.format(element)].shsout * \
+                                                                    stock_object_dictionary['{0}'.format(element)].history['Adj Close'].iloc[-1]
+
+            mkt_cap_values[i] = stock_object_dictionary['{0}'.format(element)].mktcap
+
+        except:
+            stock_object_dictionary.pop(element)
+            ticker_list.remove(element)
+            index.append(i)
+
+    np.delete(mkt_cap_values, index)
+    mkt_cap_quantiles = []
+    for q in np.linspace(1/num_of_quantiles, 1, num_of_quantiles):
+        mkt_cap_quantiles.append(np.nanquantile(mkt_cap_values, q).astype('float32'))
+
+    # To keep tracking the api process
+    j = 0
+
+    for element in stock_object_dictionary:
+        for q in mkt_cap_quantiles:
+            if stock_object_dictionary['{0}'.format(element)].mktcap < q:
+                stock_object_dictionary['{0}'.format(element)].groupby = q
+                break
+
+        if (j % 50) == 0: print(j, "--- %s seconds ---" % (time.time() - start_time))
+        j += 1
+
+    return stock_object_dictionary, ticker_list, mkt_cap_quantiles
+
+
+def mkt_cap_filter_shsfloat(lag=180, shsfloat=True, num_of_quantiles=10):
+    stock_object_dictionary, ticker_list = financials_dict_StockClass(lag=lag, shsfloat=shsfloat)
+
+    start_time = time.time()  # To compute code execution time for each retrieve
+
+    mkt_cap_values = np.zeros(len(ticker_list))
+    index=[]
+
+    for i, element in enumerate(stock_object_dictionary.copy()):
+        try:
+            stock_object_dictionary['{0}'.format(element)].mktcap = stock_object_dictionary['{0}'.format(element)].shsfloat * \
+                                                                    stock_object_dictionary['{0}'.format(element)].history['Adj Close'].iloc[-1]
+
+            mkt_cap_values[i] = stock_object_dictionary['{0}'.format(element)].mktcap
+
+        except:
+            stock_object_dictionary.pop(element)
+            ticker_list.remove(element)
+            index.append(i)
+
+    np.delete(mkt_cap_values, index)
+    mkt_cap_quantiles = []
+    for q in np.linspace(1/num_of_quantiles, 1, num_of_quantiles):
+        mkt_cap_quantiles.append(np.nanquantile(mkt_cap_values, q).astype('float32'))
+
+    # To keep tracking the api process
+    j = 0
+
+    for element in stock_object_dictionary:
+        for q in mkt_cap_quantiles:
+            if stock_object_dictionary['{0}'.format(element)].mktcap < q:
+                stock_object_dictionary['{0}'.format(element)].groupby = q
+                break
+
+        if (j % 50) == 0: print(j, "--- %s seconds ---" % (time.time() - start_time))
+        j += 1
+
+    return stock_object_dictionary, ticker_list, mkt_cap_quantiles
+
+def main():
+    # stock_object_dictionary, ticker_list = financials_dict_StockClass(lag=180, sector=True, mktcap=True, roe=True, roi=True)
+    stock_object_dictionary, ticker_list, mkt_cap_quantiles = mkt_cap_filter_shsout()
     print(0)
 
 
