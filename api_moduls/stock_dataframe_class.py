@@ -8,7 +8,7 @@ class StockClass(object):
     # Initialization of the StockClass object with the ticker symbol which is use to construct a yf.Ticker object
     def __init__(self, ticker, isin=None, exchangeid=None, sector=None, industry=None, country=None, pe=None, eps=None,
                  insiderown=None, shsout=None, shsfloat=None, mktcap=None, income=None, sales=None,
-                 booksh=None, pb=None, roa=None, tp=None, roe=None, roi=None, employees=None, debteq=None):
+                 booksh=None, pb=None, roa=None, tp=None, roe=None, roi=None, employees=None, debteq=None, groupby=None):
         self.name = ticker
         self.isin = isin
         self.exchangeid = exchangeid
@@ -39,6 +39,7 @@ class StockClass(object):
         self.employees = employees
         self.debteq = debteq
         self.rsi = pd.DataFrame
+        self.groupby = groupby
 
 
 class StockListClass(object):
