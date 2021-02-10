@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[NM-PG][NAN]">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_01_2021_09_17__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_01_2021_09_17__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_01_2021_19_17__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_01_2021_19_17__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_20210127_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_20210127_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_NETWORK__MONITOR__FEW-CHANGE_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_NETWORK__MONITOR__FEW-CHANGE_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_OTHER_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_OTHER_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_Shelve__stash_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_Shelve__stash_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trading_tool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trading_tool.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickle_obj/prova_pickle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/fetch_tickers_isin_from_degiro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +54,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1n1QjlpNg5Us8wqYkTV8EuQYHos" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,7 +80,7 @@
       <recent name="C:\Users\Mirko\Desktop\Corsi\financial_markets_academy\pickle_obj" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prova_pickle">
+  <component name="RunManager" selected="Python.daily_app">
     <configuration name="daily_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,11 +186,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.network_monitor" />
+      <item itemvalue="Python.daily_app" />
+      <item itemvalue="Python.fetch_tickers_isin_from_degiro" />
+      <item itemvalue="Python.net" />
+      <item itemvalue="Python.prova_pickle" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.daily_app" />
         <item itemvalue="Python.prova_pickle" />
         <item itemvalue="Python.fetch_tickers_isin_from_degiro" />
-        <item itemvalue="Python.daily_app" />
         <item itemvalue="Python.net" />
         <item itemvalue="Python.network_monitor" />
       </list>
@@ -196,13 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610555254919</updated>
-    </task>
-    <task id="LOCAL-00016" summary="[READ-PICKLE][NEW-DIRECTORY]">
-      <created>1610633053654</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1610633053654</updated>
     </task>
     <task id="LOCAL-00017" summary="[DAILY-APP][NEW-DIRECTORY]">
       <created>1610633112146</created>
@@ -540,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611326789560</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="[20210209]">
+      <created>1612905156231</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1612905156231</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -556,7 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[PICKLE-FILES]" />
     <MESSAGE value="[CORRELATION-PICKLE]" />
     <MESSAGE value="[DELETE][FILES]" />
     <MESSAGE value="[PIPENV]&#10;new dependencies: requests" />
@@ -581,90 +595,9 @@
     <MESSAGE value="[20210121]" />
     <MESSAGE value="[WORKSPACE]" />
     <MESSAGE value="[NM-PG][NAN]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[NM-PG][NAN]" />
+    <MESSAGE value="[20210209]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[20210209]" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="722" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611049464810">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="722" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611049464810" />
-    <state x="117" y="272" key="#xdebugger.XInspectDialog" timestamp="1610707900457">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="117" y="272" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610707900457" />
-    <state x="605" y="105" key="CommitChangelistDialog2" timestamp="1611161186622">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="605" y="105" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611161186622" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1611161370284">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611161370284" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1610555808047">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610555808047" />
-    <state x="784" y="439" key="Github.CreateGistDialog" timestamp="1610555729889">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="784" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610555729889" />
-    <state width="997" height="298" key="GridCell.Tab.0.bottom" timestamp="1611329609270">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="997" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611329609270" />
-    <state width="997" height="298" key="GridCell.Tab.0.center" timestamp="1611329609270">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="997" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611329609270" />
-    <state width="997" height="298" key="GridCell.Tab.0.left" timestamp="1611329609270">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="997" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611329609270" />
-    <state width="997" height="298" key="GridCell.Tab.0.right" timestamp="1611329609270">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="997" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611329609270" />
-    <state width="949" height="245" key="GridCell.Tab.1.bottom" timestamp="1611326946207">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="949" height="245" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611326946207" />
-    <state width="949" height="245" key="GridCell.Tab.1.center" timestamp="1611326946207">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="949" height="245" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611326946207" />
-    <state width="949" height="245" key="GridCell.Tab.1.left" timestamp="1611326946207">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="949" height="245" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611326946207" />
-    <state width="949" height="245" key="GridCell.Tab.1.right" timestamp="1611326946207">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="949" height="245" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611326946207" />
-    <state x="591" y="281" width="737" height="670" key="MultipleFileMergeDialog" timestamp="1611161841219">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="591" y="281" width="737" height="670" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611161841219" />
-    <state x="269" y="194" key="SettingsEditor" timestamp="1611160711009">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="269" y="194" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611160711009" />
-    <state x="552" y="252" width="816" height="602" key="Vcs.Push.Dialog.v2" timestamp="1611326129918">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" width="816" height="602" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611326129918" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1610986939686">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1610986939686" />
-    <state x="749" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1611049503464">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="749" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611049503464" />
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611323187499">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611323187499" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
