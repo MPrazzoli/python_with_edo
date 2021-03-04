@@ -26,7 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[mkt cap index]">
+    <list default="true" id="d9bc9820-5262-4a59-9849-7a253ca98b65" name="Default Changelist" comment="[all]">
       <change afterPath="$PROJECT_DIR$/_1_applications/_1_0_daily_app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/_1_applications/_1_1_period_app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/_2_api_moduls/_2_0_stock_dataframe_class.py" afterDir="false" />
@@ -11163,7 +11163,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[not-found][20210128]" />
     <MESSAGE value="[20210128]" />
     <MESSAGE value="[not found 20210129]" />
     <MESSAGE value="[update 20210129]" />
@@ -11188,7 +11187,8 @@
     <MESSAGE value="[not found period][trash]" />
     <MESSAGE value="[mkt cap filter]" />
     <MESSAGE value="[mkt cap index]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[mkt cap index]" />
+    <MESSAGE value="[all]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[all]" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
