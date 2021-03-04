@@ -3,7 +3,7 @@ import time
 import numpy as np
 import pandas as pd
 from finvizfinance.quote import finvizfinance
-from pickle_obj.read_pickle_df import read_available_ticker_from_pickle
+from _3_pickle_obj._3_0_read_pickle_df import read_available_ticker_from_pickle
 
 '''
 This script to fetch periodically finviz data of our stocks which are in the ticker_isin_file.xlsx
@@ -216,4 +216,4 @@ for i, ticker in enumerate(ticker_python.index):
     j += 1
 
 ticker_python.reset_index(level=0, inplace=True)
-ticker_python.to_excel(r'ticker_isin_file_financials.xlsx', sheet_name='AmericanFinancials', index=False)
+ticker_python.to_excel(r'ticker_isin_file_financials2.xlsx', sheet_name='AmericanFinancials', index=False)

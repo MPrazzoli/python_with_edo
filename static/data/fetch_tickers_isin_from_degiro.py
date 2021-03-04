@@ -9,7 +9,7 @@ Here you have just to set your session id you find on your browser
 '''
 
 url = 'https://trader.degiro.nl/product_search/secure/v5/stocks?isInUSGreenList=false&stockCountryId={v0}&offset={v1}&limit={v2}&requireTotal=true&sortColumns=name&sortTypes=asc&intAccount=115000116&sessionId={v3}'
-sessionId = 'BA3DC551A28C8D5C60F4D549CD925403.prod_b_112_2'  # your actual session id
+sessionId = 'A56C6F981001083ED73E4378EB4F013F.prod_b_112_2'  # your actual session id
 countryId = '846'  # 846 for American mkt
 offset = [0, 1000, 2000, 3000, 4000, 5000]
 limit = 1000  # limit per request
