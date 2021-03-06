@@ -39,6 +39,9 @@ def stock_analysis():
     adjclose_df = pd.DataFrame([stock_object_dictionary['{0}'.format(element)].history['Adj Close'] for element in
                                 stock_object_dictionary.copy()], index=list(stock_object_dictionary.keys())).transpose()
 
+    volume_df = pd.DataFrame([stock_object_dictionary['{0}'.format(element)].history['Volume'] for element in
+                                stock_object_dictionary.copy()], index=list(stock_object_dictionary.keys())).transpose()
+
     project_root = os.path.dirname(os.path.dirname(__file__))
     data_path = project_root + '/_8_jupyter_notebooks/_8_0_exported_dataframe/open_' + start_date + '_' + end_date + '_' + str(len(ticker_list))
     open_df.to_csv(data_path, index=True)
@@ -52,8 +55,8 @@ def stock_analysis():
     data_path = project_root + '/_8_jupyter_notebooks/_8_0_exported_dataframe/adjclose_' + start_date + '_' + end_date + '_' + str(len(ticker_list))
     adjclose_df.to_csv(data_path, index=True)
 
-    print(adjclose_df)
-
+    data_path = project_root + '/_8_jupyter_notebooks/_8_0_exported_dataframe/volume_' + start_date + '_' + end_date + '_' + str(len(ticker_list))
+    volume_df.to_csv(data_path, index=True)
 
 
 def main():
