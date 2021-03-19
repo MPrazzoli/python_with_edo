@@ -14,10 +14,9 @@ from _3_pickle_obj._3_0_read_pickle_df import read_available_ticker_from_pickle,
 # from analysis_functions.correlation import cross_correlation_function
 
 
-def stock_analysis():
-    start_date = (date.today() - timedelta(365)).strftime('%Y-%m-%d')
-    end_date = date.today().strftime('%Y-%m-%d')
-    stock_object_dictionary = read_data_for_analysis_linearInterp_for_nan(max_not_found_record=5, start=start_date,
+def export_csv(start_date, end_date, max_not_found_record=5):
+
+    stock_object_dictionary = read_data_for_analysis_linearInterp_for_nan(max_not_found_record, start=start_date,
                                                                           end=end_date)
     ticker_list = []
     for element in stock_object_dictionary:
@@ -43,24 +42,24 @@ def stock_analysis():
                                 stock_object_dictionary.copy()], index=list(stock_object_dictionary.keys())).transpose()
 
     project_root = os.path.dirname(os.path.dirname(__file__))
-    data_path = project_root + '/_8_jupyter_notebooks/_8_0_exported_dataframe/open_' + start_date + '_' + end_date + '_' + str(len(ticker_list))
+    data_path = project_root + '/_8_jupyter_notebooks/_8_0_exported_dataframe/open'
     open_df.to_csv(data_path, index=True)
 
-    data_path = project_root + '/_8_jupyter_notebooks/_8_0_exported_dataframe/high_' + start_date + '_' + end_date + '_' + str(len(ticker_list))
+    data_path = project_root + '/_8_jupyter_notebooks/_8_0_exported_dataframe/high'
     high_df.to_csv(data_path, index=True)
 
-    data_path = project_root + '/_8_jupyter_notebooks/_8_0_exported_dataframe/low_' + start_date + '_' + end_date + '_' + str(len(ticker_list))
+    data_path = project_root + '/_8_jupyter_notebooks/_8_0_exported_dataframe/low'
     low_df.to_csv(data_path, index=True)
 
-    data_path = project_root + '/_8_jupyter_notebooks/_8_0_exported_dataframe/adjclose_' + start_date + '_' + end_date + '_' + str(len(ticker_list))
+    data_path = project_root + '/_8_jupyter_notebooks/_8_0_exported_dataframe/adjclose'
     adjclose_df.to_csv(data_path, index=True)
 
-    data_path = project_root + '/_8_jupyter_notebooks/_8_0_exported_dataframe/volume_' + start_date + '_' + end_date + '_' + str(len(ticker_list))
+    data_path = project_root + '/_8_jupyter_notebooks/_8_0_exported_dataframe/volume'
     volume_df.to_csv(data_path, index=True)
 
 
 def main():
-    stock_analysis()
+    export_csv()
 
 
 if __name__ == "__main__":

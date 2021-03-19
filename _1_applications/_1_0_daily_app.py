@@ -5,7 +5,7 @@ from datetime import date, timedelta
 from _2_api_moduls._2_1_api import api_function
 from _3_pickle_obj._3_0_read_pickle_df import read_from_pickle, read_not_found_from_pickle
 from _3_pickle_obj._3_1_write_pickle_df import write_to_pickle, write_not_found_from_pickle
-
+from _7_export_csv_for_ipynb._7_0_export_adjcls_df import export_csv
 
 def main():
     # Setting of Start date and End date of our retrieving period
@@ -51,6 +51,12 @@ def main():
             print('check error in last price for group by pickle --', ticker)
 
     write_to_pickle(stock_object_dictionary_pickle, ticker_list_object)
+
+    start_date_for_export = (date.today() - timedelta(600)).strftime('%Y-%m-%d')
+    end_date_for_export = date.today().strftime('%Y-%m-%d')
+
+    export_csv(start_date_for_export, end_date_for_export)
+
     print('the end')
 
 

@@ -5,11 +5,12 @@ from datetime import date, timedelta
 from _2_api_moduls._2_1_api import api_function
 from _3_pickle_obj._3_0_read_pickle_df import read_from_pickle, read_not_found_from_pickle
 from _3_pickle_obj._3_1_write_pickle_df import write_to_pickle, write_not_found_from_pickle
+from _7_export_csv_for_ipynb._7_0_export_adjcls_df import export_csv
 
 #TODO: aggiungi un file pkl per tenere traccia dell'ultimo giorno osservato e salvato per poi fare un retrieving da quella data ultima osservata ad oggi +1 gg per yahoo finance
 def main():
     # Setting of Start date and End date of our retrieving period
-    start_date = date.today() - timedelta(6)
+    start_date = date.today() - timedelta(15)
     end_date = date.today() + timedelta(1)
 
     try:
@@ -51,6 +52,12 @@ def main():
             print('check error in last price for group by pickle --', ticker)
 
     write_to_pickle(stock_object_dictionary_pickle, ticker_list_object)
+
+    start_date_for_export = (date.today() - timedelta(600)).strftime('%Y-%m-%d')
+    end_date_for_export = date.today().strftime('%Y-%m-%d')
+
+    export_csv(start_date_for_export, end_date_for_export)
+
     print('the end')
 
 
