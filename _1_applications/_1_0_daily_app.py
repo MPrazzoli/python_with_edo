@@ -13,7 +13,7 @@ def main():
     end_date = date.today() + timedelta(1)
 
     try:
-        # Retrieving process and computation of tickers that are already into our DB but we want excluded
+        # Retrieving process and computation of tick ers that are already into our DB but we want excluded
         # cause they do not give a data response since the limit we fix in variable max_not_found_record
 
         pickle_not_found_tickers_list = read_not_found_from_pickle(max_not_found_record=100)
