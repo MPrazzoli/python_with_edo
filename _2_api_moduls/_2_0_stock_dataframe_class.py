@@ -8,7 +8,8 @@ class StockClass(object):
     # Initialization of the StockClass object with the ticker symbol which is use to construct a yf.Ticker object
     def __init__(self, ticker, isin=None, exchangeid=None, sector=None, industry=None, country=None, pe=None, eps=None,
                  insiderown=None, shsout=None, shsfloat=None, mktcap=None, income=None, sales=None,
-                 booksh=None, pb=None, roa=None, tp=None, roe=None, roi=None, employees=None, debteq=None, groupby=None):
+                 booksh=None, pb=None, roa=None, tp=None, roe=None, roi=None, employees=None, debteq=None,
+                 groupby=None):
         self.name = ticker
         self.isin = isin
         self.exchangeid = exchangeid
@@ -49,6 +50,23 @@ class StockListClass(object):
         self.ticker_list = ticker_list
         self.isin_list = isin_list
         self.exchangeId_list = exchangeId_list
+
+class IndexClass(object):
+
+    # ...
+    def __init__(self, symbol, type=None, name=None):
+        self.symbol = symbol
+        self.type = type
+        self.name = name
+        self.history = pd.DataFrame
+
+class IndicesListClass(object):
+
+    # Initialization of the IndicesListClass object with idices symbol code of all indices in investpy
+    def __init__(self, idx_list, idx_class=None, idx_name=None):
+        self.idx_list = idx_list
+        self.idx_class = idx_class
+        self.idx_name = idx_name
 
 
 class ImportantDatesClass(object):
